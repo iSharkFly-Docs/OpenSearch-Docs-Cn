@@ -13,6 +13,10 @@
 1. 读者是中文开发者和运维人员。译文要自然、通顺，不要逐词硬译；使用简体中文。
 2. **术语**：OpenSearch 核心术语首次出现时写成「中文（English）」，之后只用中文。例如：索引（Index）、文档（Document）、字段（Field）、映射（Mapping）、分片（Shard）、主分片（Primary Shard）、副本分片（Replica Shard）、节点（Node）、集群（Cluster）、集群管理节点（Cluster Manager Node）、分析器（Analyzer）、分词器（Tokenizer）、词元过滤器（Token Filter）、聚合（Aggregation）、桶聚合（Bucket Aggregation）、指标聚合（Metric Aggregation）、查询（Query）、过滤器（Filter）、相关性评分（Relevance Score）、摄取管道（Ingest Pipeline）、处理器（Processor）、搜索管道（Search Pipeline）、快照（Snapshot）、别名（Alias）、索引模板（Index Template）、索引状态管理（Index State Management，ISM）、段（Segment）、段复制（Segment Replication）、远程存储（Remote Store）、跨集群复制（Cross-cluster Replication）、可观测性（Observability）、向量搜索（Vector Search）、神经搜索（Neural Search）、混合搜索（Hybrid Search）。
    其他已统一的译法：插件（plugin）、仪表板（dashboard，产品名 OpenSearch Dashboards 不译）、可视化（visualization）、告警（alerting）、监控器（monitor）、角色（role）、权限（permission）、租户（tenant）。
+   查询与聚合：全文查询（full-text query）、词项级查询（term-level query）、复合查询（compound query）、查询上下文 / 过滤上下文（query context / filter context）、权重提升（boost）、命中（hit）、桶（bucket）、管道聚合（Pipeline Aggregation）、同级聚合（Sibling Aggregation）、父聚合（Parent Aggregation）、最少应匹配数（minimum should match）。
+   文本分析与字段：词元（token）、字符过滤器（character filter）、规范化器（normalizer）、字段类型（field type）、地理点（geopoint）、地理形状（geoshape）、扁平对象（flat object）、日期计算（date math）、纪元（epoch）、补全建议器（completion suggester）、载荷（payload）。doc values、shingle 不译。
+   设置项与表格：Static / Dynamic → 静态 / 动态，Optional / Required → 可选 / 必需，Default → 默认值，Yes / No → 是 / 否。`<details>` 中的 `<summary>Response</summary>` 译为「响应」。
+   以查询类型或字段类型命名的页面，标题保留英文类型名，例如「Term 查询」「Keyword 字段类型」。
 3. 产品名、库名、API 名称和代码标识符保持英文：OpenSearch、OpenSearch Dashboards、Data Prepper、OpenSearch Benchmark、Lucene、Query DSL、PPL、SQL、k-NN、`_search`、`match`、`bool` 等。API 的端点、参数名和字段名保持英文。
 4. **不翻译**：代码块内的代码、行内代码（反引号内）、文件路径、命令、URL、HTML 标签和属性、Vue/VitePress 组件标签及属性名（例如 `<Badge type="tip" text="Introduced 1.0" />` 中的 `text` 值保留英文）。代码块中的**注释**可以翻译。
    - 代码块的整行 fence（包括 ```` ```json ```` 这类语言标记）保持原样，不要翻译。
@@ -23,4 +27,5 @@
 6. **链接**：链接地址保持原样（站内的 `/xxx` 链接会自动指向中文页面），只翻译链接文字。锚点链接（`#some-heading`）保持原样。
    - 标题锚点不用手动处理：`scripts/sync-zh.mjs` 构建时会按顺序把中文标题与英文标题配对，自动加上英文锚点 `{#english-slug}`。因此**译文的标题数量和顺序必须与原文完全一致**，不能合并、拆分或增删标题。原文已有的 `{#xxx}` 保持原样。
 7. 中英文之间、中文与数字之间加一个空格。中文语境下使用全角标点（，。：；？！「」（）），代码和英文内容中保持半角。
+   - 强调用 `*斜体*` 而不是 `_斜体_`（下划线紧挨中文时不生效）；`**粗体**` 以全角括号结尾且后面直接跟中文时，在结尾标记后加一个空格，否则粗体不生效。
 8. 不要增删内容，不要添加译者注，除非原文有明显错误。
