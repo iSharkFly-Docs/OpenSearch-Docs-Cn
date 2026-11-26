@@ -20,7 +20,7 @@ pipeline {
         DOCS_TOOLS = '.vitepress/node_modules'
         WRANGLER = '.vitepress/node_modules/.bin/wrangler'
         // 发布到线上的分支
-        RELEASE_BRANCH = 'docs_cn'
+        RELEASE_BRANCH = 'main'
         // Cloudflare API Token（Jenkins Secret text 凭据，需要 Workers Scripts:Edit 权限）
         CLOUDFLARE_API_TOKEN = credentials('sharkdat-cloudflare-api-token')
         // Cloudflare Account ID（Secret text 凭据）。设置后 wrangler 不再调用 /memberships 查询账号，
