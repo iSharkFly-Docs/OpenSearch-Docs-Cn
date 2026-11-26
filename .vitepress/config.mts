@@ -21,6 +21,18 @@ const FORUM_URL = 'https://www.isharkfly.com/tag/opensearch';
 const CONTACT_URL = 'https://www.isharkfly.com/t/opensearch/15530';
 const REPO_URL = 'https://github.com/iSharkFly-Docs/opensearch-docs-cn';
 
+// iSharkFly links shown as a dropdown at the end of the nav bar.
+function isharkflyNav(zh: boolean): DefaultTheme.NavItem {
+  return {
+    text: 'iSharkFly',
+    items: [
+      { text: zh ? 'iSharkFly' : 'iSharkFly', link: FORUM_URL },
+      { text: zh ? '文档导航' : 'Docs Portal', link: 'https://docs.isharkfly.com/' },
+      { text: zh ? '本站源码' : 'Source Code', link: 'https://src.sharkdat.com/iSharkFly-Docs/OpenSearch-iSharkFly-Com' },
+    ],
+  };
+}
+
 // Sidebar group names (just-the-docs collection names from _config.yml).
 const zhSidebarText: Record<string, string> = {
   'About OpenSearch': '关于 OpenSearch',
@@ -131,7 +143,7 @@ for (const [key, locale] of Object.entries(site.locales)) {
         { text: '客户端', link: `${b}clients/`, activeMatch: `^${b}clients/` },
         { text: 'Data Prepper', link: `${b}data-prepper/`, activeMatch: `^${b}data-prepper/` },
         { text: 'Benchmark', link: `${b}benchmark/`, activeMatch: `^${b}benchmark/` },
-        { text: '中文论坛', link: FORUM_URL },
+        isharkflyNav(true),
       ],
       sidebar: mapSidebar(locale.sidebar, link => link, text => zhSidebarText[text] ?? text),
     },
@@ -151,7 +163,7 @@ for (const [key, locale] of Object.entries(site.locales)) {
         { text: 'Clients', link: `${enBase}clients/`, activeMatch: `^${enBase}clients/` },
         { text: 'Data Prepper', link: `${enBase}data-prepper/`, activeMatch: `^${enBase}data-prepper/` },
         { text: 'Benchmark', link: `${enBase}benchmark/`, activeMatch: `^${enBase}benchmark/` },
-        { text: 'Forum', link: FORUM_URL },
+        isharkflyNav(false),
       ],
       sidebar: mapSidebar(locale.sidebar, enLink, text => text),
     },
