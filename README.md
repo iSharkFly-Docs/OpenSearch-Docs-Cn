@@ -30,6 +30,9 @@
 ```bash
 # 安装文档工具链（安装到 .vitepress/node_modules，与 Jenkinsfile 一致）
 npm install --prefix .vitepress --no-save --no-package-lock vitepress@1.6.3 vue@3.5.13
+# SSR 构建时页面需要从项目根目录解析 vue：让根目录 node_modules 指向工具链
+# （Windows 下用 mklink /J node_modules .vitepress\node_modules）
+ln -sfn .vitepress/node_modules node_modules
 
 # 上游 Jekyll 原文更新后，重新生成 src/ 和 scripts/nav.json（结果需要提交）
 node scripts/import-jekyll.mjs

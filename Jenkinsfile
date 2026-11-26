@@ -50,6 +50,9 @@ pipeline {
                     set -eu
                     npm install --prefix .vitepress --no-save --no-package-lock --no-audit --no-fund \
                       vitepress@1.6.3 vue@3.5.13 wrangler@4.164.0
+                    # VitePress 只在客户端构建时把 vue 指向自带依赖；SSR 构建时 site/ 下的页面按 Node 规则
+                    # 向上查找 node_modules/vue。让根目录 node_modules 指向工具链，保证只有一份 vue。
+                    ln -sfn .vitepress/node_modules node_modules
                 '''
             }
         }

@@ -10,6 +10,8 @@ Gemfile.lock
 # VitePress（文档工具链安装在 .vitepress/node_modules，构建产物不入库）
 /site/
 /.vitepress/node_modules/
+# 指向 .vitepress/node_modules 的软链接（见 Jenkinsfile Install 阶段）
+/node_modules
 /.vitepress/cache/
 /.vitepress/dist/
 /.vitepress/generated/
