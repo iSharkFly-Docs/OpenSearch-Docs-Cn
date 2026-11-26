@@ -13,6 +13,39 @@
 
 本文档使用的是 GitHub Pages 功能进行部署的，因此你也可以非常容易的将本文档中内容 Fork 到你的仓库中部署到你的域名下面，如果你在部署上有什么问题的话，请访问 [OSSEZ.COM](https://www.ossez.com/tag/opensearch) 中的内容，并参与讨论。
 
+### 站点构建（VitePress）
+
+本站点已从 Jekyll 改为 VitePress 构建，目录布局与 Angular-iSharkFly-Com 项目一致：
+
+| 位置 | 说明 |
+| --- | --- |
+| `_<collection>/` | 官方仓库的 Jekyll 原文，跟随上游合并，不要手工修改 |
+| `src/` | VitePress 版英文原文，由 `scripts/import-jekyll.mjs` 从 Jekyll 原文转换生成（`src/index.md` 首页手工维护） |
+| `i18n/zh/` | 中文译文，与 `src/` 路径一一对应，翻译规范见 [i18n/TRANSLATION-GUIDE.md](i18n/TRANSLATION-GUIDE.md) |
+| `scripts/nav.json` | 侧边栏结构，由 `import-jekyll.mjs` 根据 front matter（`parent` / `grand_parent` / `nav_order`）生成 |
+| `src/public/_redirects` | 旧 Jekyll URL（`redirect_from`、`/xxx/index/`）的 301 跳转，由 Cloudflare 执行 |
+| `site/` | 构建时生成的双语站点：中文在根路径，英文在 `/en/`（不入库） |
+| `.vitepress/` | VitePress 配置与主题 |
+
+```bash
+# 安装文档工具链（安装到 .vitepress/node_modules，与 Jenkinsfile 一致）
+npm install --prefix .vitepress --no-save --no-package-lock vitepress@1.6.3 vue@3.5.13
+
+# 上游 Jekyll 原文更新后，重新生成 src/ 和 scripts/nav.json（结果需要提交）
+node scripts/import-jekyll.mjs
+
+# 生成侧边栏配置、合成双语站点、构建
+node scripts/generate.mjs
+node scripts/sync-zh.mjs
+node --max-old-space-size=16384 .vitepress/node_modules/vitepress/bin/vitepress.js build .
+# 本地预览
+node .vitepress/node_modules/vitepress/bin/vitepress.js preview .
+```
+
+在 Windows 上构建时，请用大写盘符的绝对路径代替 `.`（例如 `build D:/WorkDir/.../OpenSearch-iSharkFly-Com`），否则 VitePress 会因盘符大小写不一致在 rendering pages 阶段报错 `Cannot read properties of undefined (reading 'imports')`。
+
+部署由 [Jenkinsfile](Jenkinsfile) 完成：构建后使用 Wrangler 发布到 Cloudflare Workers Static Assets（配置见 [wrangler.jsonc](wrangler.jsonc)）。
+
 ### 官方文档地址
 
 你可以访问官方的文档地址 [opensearch.org/docs](https://opensearch.org/docs) 来显示完整被渲染后的文档。

@@ -6,3 +6,11 @@ Gemfile.lock
 .idea
 .jekyll-cache
 /opensearch-docs-cn.iml
+
+# VitePress（文档工具链安装在 .vitepress/node_modules，构建产物不入库）
+/site/
+/.vitepress/node_modules/
+/.vitepress/cache/
+/.vitepress/dist/
+/.vitepress/generated/
+/.wrangler/

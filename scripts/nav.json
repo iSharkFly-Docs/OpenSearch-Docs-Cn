@@ -1,0 +1,3574 @@
+[
+  {
+    "base": "/",
+    "groups": [
+      {
+        "text": "About OpenSearch",
+        "collection": "about",
+        "items": [
+          {
+            "text": "Intro to OpenSearch",
+            "link": "/intro"
+          },
+          {
+            "text": "Quickstart",
+            "link": "/quickstart"
+          },
+          {
+            "text": "Version history",
+            "link": "/version-history"
+          },
+          {
+            "text": "Breaking changes",
+            "link": "/breaking-changes"
+          }
+        ]
+      },
+      {
+        "text": "Install and upgrade",
+        "collection": "install-and-configure",
+        "items": [
+          {
+            "text": "Installing OpenSearch",
+            "link": "/install-and-configure/install-opensearch/",
+            "items": [
+              {
+                "text": "Docker",
+                "link": "/install-and-configure/install-opensearch/docker"
+              },
+              {
+                "text": "Helm",
+                "link": "/install-and-configure/install-opensearch/helm"
+              },
+              {
+                "text": "Tarball",
+                "link": "/install-and-configure/install-opensearch/tar"
+              },
+              {
+                "text": "RPM",
+                "link": "/install-and-configure/install-opensearch/rpm"
+              },
+              {
+                "text": "Debian",
+                "link": "/install-and-configure/install-opensearch/debian"
+              },
+              {
+                "text": "Ansible playbook",
+                "link": "/install-and-configure/install-opensearch/ansible"
+              },
+              {
+                "text": "Windows",
+                "link": "/install-and-configure/install-opensearch/windows"
+              }
+            ]
+          },
+          {
+            "text": "Installing OpenSearch Dashboards",
+            "link": "/install-and-configure/install-dashboards/",
+            "items": [
+              {
+                "text": "Docker",
+                "link": "/install-and-configure/install-dashboards/docker"
+              },
+              {
+                "text": "Tarball",
+                "link": "/install-and-configure/install-dashboards/tar"
+              },
+              {
+                "text": "RPM",
+                "link": "/install-and-configure/install-dashboards/rpm"
+              },
+              {
+                "text": "Debian",
+                "link": "/install-and-configure/install-dashboards/debian"
+              },
+              {
+                "text": "Helm",
+                "link": "/install-and-configure/install-dashboards/helm"
+              },
+              {
+                "text": "Windows",
+                "link": "/install-and-configure/install-dashboards/windows"
+              },
+              {
+                "text": "Configure TLS",
+                "link": "/install-and-configure/install-dashboards/tls"
+              }
+            ]
+          },
+          {
+            "text": "Configuring OpenSearch",
+            "link": "/install-and-configure/configuring-opensearch/",
+            "items": [
+              {
+                "text": "Configuration and system settings",
+                "link": "/install-and-configure/configuring-opensearch/configuration-system"
+              },
+              {
+                "text": "Network settings",
+                "link": "/install-and-configure/configuring-opensearch/network-settings"
+              },
+              {
+                "text": "Discovery and gateway settings",
+                "link": "/install-and-configure/configuring-opensearch/discovery-gateway-settings"
+              },
+              {
+                "text": "Security settings",
+                "link": "/install-and-configure/configuring-opensearch/security-settings"
+              },
+              {
+                "text": "Circuit breaker settings",
+                "link": "/install-and-configure/configuring-opensearch/circuit-breaker"
+              },
+              {
+                "text": "Cluster settings",
+                "link": "/install-and-configure/configuring-opensearch/cluster-settings"
+              },
+              {
+                "text": "Index settings",
+                "link": "/install-and-configure/configuring-opensearch/index-settings"
+              },
+              {
+                "text": "Search settings",
+                "link": "/install-and-configure/configuring-opensearch/search-settings"
+              },
+              {
+                "text": "Availability and recovery settings",
+                "link": "/install-and-configure/configuring-opensearch/availability-recovery"
+              },
+              {
+                "text": "Plugin settings",
+                "link": "/install-and-configure/configuring-opensearch/plugin-settings"
+              },
+              {
+                "text": "Experimental feature flags",
+                "link": "/install-and-configure/configuring-opensearch/experimental"
+              },
+              {
+                "text": "Logs",
+                "link": "/install-and-configure/configuring-opensearch/logs"
+              }
+            ]
+          },
+          {
+            "text": "Configuring OpenSearch Dashboards",
+            "link": "/install-and-configure/configuring-dashboards"
+          },
+          {
+            "text": "Upgrading OpenSearch",
+            "link": "/install-and-configure/upgrade-opensearch/",
+            "items": [
+              {
+                "text": "Rolling Upgrade",
+                "link": "/install-and-configure/upgrade-opensearch/rolling-upgrade"
+              },
+              {
+                "text": "Upgrades appendix",
+                "link": "/install-and-configure/upgrade-opensearch/appendix/",
+                "items": [
+                  {
+                    "text": "Rolling upgrade lab",
+                    "link": "/install-and-configure/upgrade-opensearch/appendix/rolling-upgrade-lab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Installing plugins",
+            "link": "/install-and-configure/plugins"
+          },
+          {
+            "text": "Managing OpenSearch Dashboards plugins",
+            "link": "/install-and-configure/install-dashboards/plugins"
+          }
+        ]
+      },
+      {
+        "text": "Migrate to OpenSearch",
+        "collection": "upgrade-to",
+        "items": [
+          {
+            "text": "Using snapshots to migrate data",
+            "link": "/upgrade-to/snapshot-migrate"
+          },
+          {
+            "text": "Migrating from Elasticsearch OSS to OpenSearch",
+            "link": "/upgrade-to/upgrade-to"
+          },
+          {
+            "text": "Migrating Docker clusters to OpenSearch",
+            "link": "/upgrade-to/docker-upgrade-to"
+          },
+          {
+            "text": "Migrating from Kibana OSS to OpenSearch Dashboards",
+            "link": "/upgrade-to/dashboards-upgrade-to"
+          }
+        ]
+      },
+      {
+        "text": "Managing Indexes",
+        "collection": "im-plugin",
+        "items": [
+          {
+            "text": "Index templates",
+            "link": "/im-plugin/index-templates"
+          },
+          {
+            "text": "Index aliases",
+            "link": "/im-plugin/index-alias"
+          },
+          {
+            "text": "Data streams",
+            "link": "/im-plugin/data-streams"
+          },
+          {
+            "text": "Reindex data",
+            "link": "/im-plugin/reindex-data"
+          },
+          {
+            "text": "Index State Management",
+            "link": "/im-plugin/ism/",
+            "items": [
+              {
+                "text": "Policies",
+                "link": "/im-plugin/ism/policies"
+              },
+              {
+                "text": "Managed indexes",
+                "link": "/im-plugin/ism/managedindexes"
+              },
+              {
+                "text": "Settings",
+                "link": "/im-plugin/ism/settings"
+              },
+              {
+                "text": "ISM API",
+                "link": "/im-plugin/ism/api"
+              }
+            ]
+          },
+          {
+            "text": "Index transforms",
+            "link": "/im-plugin/index-transforms/",
+            "items": [
+              {
+                "text": "Transforms APIs",
+                "link": "/im-plugin/index-transforms/transforms-apis"
+              }
+            ]
+          },
+          {
+            "text": "Index rollups",
+            "link": "/im-plugin/index-rollups/",
+            "items": [
+              {
+                "text": "Index rollups API",
+                "link": "/im-plugin/index-rollups/rollup-api"
+              },
+              {
+                "text": "Settings",
+                "link": "/im-plugin/index-rollups/settings"
+              }
+            ]
+          },
+          {
+            "text": "Index management security",
+            "link": "/im-plugin/security"
+          },
+          {
+            "text": "Refresh search analyzer",
+            "link": "/im-plugin/refresh-analyzer"
+          },
+          {
+            "text": "ISM Error Prevention",
+            "link": "/im-plugin/ism/error-prevention/",
+            "items": [
+              {
+                "text": "ISM Error Prevention resolutions",
+                "link": "/im-plugin/ism/error-prevention/resolutions"
+              },
+              {
+                "text": "ISM Error Prevention API",
+                "link": "/im-plugin/ism/error-prevention/api"
+              }
+            ]
+          },
+          {
+            "text": "Notification settings",
+            "link": "/im-plugin/notifications-settings"
+          },
+          {
+            "text": "Index codecs",
+            "link": "/im-plugin/index-codecs"
+          }
+        ]
+      },
+      {
+        "text": "Ingest Pipelines",
+        "collection": "ingest-pipelines",
+        "items": [
+          {
+            "text": "Create pipeline",
+            "link": "/ingest-pipelines/create-ingest"
+          },
+          {
+            "text": "Simulate pipeline",
+            "link": "/ingest-pipelines/simulate-ingest"
+          },
+          {
+            "text": "Get pipeline",
+            "link": "/ingest-pipelines/get-ingest"
+          },
+          {
+            "text": "Delete pipeline",
+            "link": "/ingest-pipelines/delete-ingest"
+          },
+          {
+            "text": "Handling pipeline failures",
+            "link": "/ingest-pipelines/pipeline-failures"
+          },
+          {
+            "text": "Ingest processors",
+            "link": "/ingest-pipelines/processors/index-processors",
+            "items": [
+              {
+                "text": "Append",
+                "link": "/ingest-pipelines/processors/append"
+              },
+              {
+                "text": "Bytes",
+                "link": "/ingest-pipelines/processors/bytes"
+              },
+              {
+                "text": "Convert",
+                "link": "/ingest-pipelines/processors/convert"
+              },
+              {
+                "text": "Copy",
+                "link": "/ingest-pipelines/processors/copy"
+              },
+              {
+                "text": "CSV",
+                "link": "/ingest-pipelines/processors/csv"
+              },
+              {
+                "text": "Date",
+                "link": "/ingest-pipelines/processors/date"
+              },
+              {
+                "text": "Date index name",
+                "link": "/ingest-pipelines/processors/date-index-name"
+              },
+              {
+                "text": "Dissect",
+                "link": "/ingest-pipelines/processors/dissect"
+              },
+              {
+                "text": "Dot expander",
+                "link": "/ingest-pipelines/processors/dot-expander"
+              },
+              {
+                "text": "Drop",
+                "link": "/ingest-pipelines/processors/drop"
+              },
+              {
+                "text": "IP2Geo",
+                "link": "/ingest-pipelines/processors/ip2geo"
+              },
+              {
+                "text": "KV",
+                "link": "/ingest-pipelines/processors/kv"
+              },
+              {
+                "text": "Lowercase",
+                "link": "/ingest-pipelines/processors/lowercase"
+              },
+              {
+                "text": "Remove_by_pattern",
+                "link": "/ingest-pipelines/processors/remove_by_pattern"
+              },
+              {
+                "text": "Remove",
+                "link": "/ingest-pipelines/processors/remove"
+              },
+              {
+                "text": "Sparse encoding",
+                "link": "/ingest-pipelines/processors/sparse-encoding"
+              },
+              {
+                "text": "Text embedding",
+                "link": "/ingest-pipelines/processors/text-embedding"
+              },
+              {
+                "text": "Text/image embedding",
+                "link": "/ingest-pipelines/processors/text-image-embedding"
+              },
+              {
+                "text": "Uppercase",
+                "link": "/ingest-pipelines/processors/uppercase"
+              },
+              {
+                "text": "Grok",
+                "link": "/ingest-pipelines/processors/grok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "OpenSearch Dashboards",
+        "collection": "dashboards",
+        "items": [
+          {
+            "text": "OpenSearch Dashboards quickstart guide",
+            "link": "/dashboards/quickstart"
+          },
+          {
+            "text": "OpenSearch Assistant for OpenSearch Dashboards",
+            "link": "/dashboards/dashboards-assistant/"
+          },
+          {
+            "text": "Analyzing data",
+            "link": "/dashboards/discover/index-discover",
+            "items": [
+              {
+                "text": "Time filter",
+                "link": "/dashboards/discover/time-filter"
+              }
+            ]
+          },
+          {
+            "text": "Creating dashboards",
+            "link": "/dashboards/dashboard/"
+          },
+          {
+            "text": "Building data visualizations",
+            "link": "/dashboards/visualize/viz-index",
+            "items": [
+              {
+                "text": "Using area charts",
+                "link": "/dashboards/visualize/area"
+              },
+              {
+                "text": "Using coordinate and region maps",
+                "link": "/dashboards/visualize/geojson-regionmaps",
+                "items": [
+                  {
+                    "text": "Using maps",
+                    "link": "/dashboards/visualize/maps"
+                  },
+                  {
+                    "text": "Maps Stats API",
+                    "link": "/dashboards/visualize/maps-stats-api"
+                  },
+                  {
+                    "text": "Configuring a Web Map Service (WMS)",
+                    "link": "/dashboards/visualize/maptiles"
+                  },
+                  {
+                    "text": "Using the self-host maps server",
+                    "link": "/dashboards/visualize/selfhost-maps-server"
+                  }
+                ]
+              },
+              {
+                "text": "Using Gantt charts",
+                "link": "/dashboards/visualize/gantt"
+              },
+              {
+                "text": "Using VisBuilder",
+                "link": "/dashboards/visualize/visbuilder"
+              }
+            ]
+          },
+          {
+            "text": "Index Management",
+            "link": "/dashboards/im-dashboards/",
+            "items": [
+              {
+                "text": "Indexes",
+                "link": "/dashboards/im-dashboards/index-management"
+              },
+              {
+                "text": "Data streams",
+                "link": "/dashboards/im-dashboards/datastream"
+              },
+              {
+                "text": "Force merge",
+                "link": "/dashboards/im-dashboards/forcemerge"
+              },
+              {
+                "text": "Rollover",
+                "link": "/dashboards/im-dashboards/rollover"
+              },
+              {
+                "text": "Component templates",
+                "link": "/dashboards/im-dashboards/component-templates"
+              },
+              {
+                "text": "Notification settings",
+                "link": "/dashboards/im-dashboards/notifications"
+              }
+            ]
+          },
+          {
+            "text": "Snapshot Management",
+            "link": "/dashboards/sm-dashboards"
+          },
+          {
+            "text": "Dashboards Management",
+            "link": "/dashboards/management/management-index",
+            "items": [
+              {
+                "text": "Index patterns",
+                "link": "/dashboards/management/index-patterns"
+              },
+              {
+                "text": "Advanced settings",
+                "link": "/dashboards/management/advanced-settings"
+              }
+            ]
+          },
+          {
+            "text": "Data sources",
+            "link": "/dashboards/management/data-sources",
+            "items": [
+              {
+                "text": "Configuring and using multiple data sources",
+                "link": "/dashboards/management/multi-data-sources"
+              },
+              {
+                "text": "Connecting Amazon S3 to OpenSearch",
+                "link": "/dashboards/management/S3-data-source",
+                "items": [
+                  {
+                    "text": "Query and visualize Amazon S3 data",
+                    "link": "/dashboards/management/query-data-source"
+                  },
+                  {
+                    "text": "Optimize query performance using OpenSearch indexing",
+                    "link": "/dashboards/management/accelerate-external-data"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Dev Tools",
+            "link": "/dashboards/dev-tools/index-dev",
+            "items": [
+              {
+                "text": "Running queries in the Dev Tools console",
+                "link": "/dashboards/dev-tools/run-queries"
+              }
+            ]
+          },
+          {
+            "text": "Query Workbench",
+            "link": "/dashboards/query-workbench"
+          },
+          {
+            "text": "Custom branding",
+            "link": "/dashboards/branding"
+          },
+          {
+            "text": "Dashboards Query Language (DQL)",
+            "link": "/dashboards/dql"
+          },
+          {
+            "text": "Search telemetry",
+            "link": "/dashboards/search-telemetry"
+          },
+          {
+            "text": "Integrating plugins into a dashboard",
+            "link": "/dashboards/dashboard/plugins-dashboards"
+          }
+        ]
+      },
+      {
+        "text": "Creating and tuning your cluster",
+        "collection": "tuning-your-cluster",
+        "items": [
+          {
+            "text": "Cluster manager task throttling",
+            "link": "/tuning-your-cluster/cluster-manager-task-throttling"
+          },
+          {
+            "text": "Cross-cluster replication",
+            "link": "/tuning-your-cluster/replication-plugin/",
+            "items": [
+              {
+                "text": "Getting started",
+                "link": "/tuning-your-cluster/replication-plugin/getting-started"
+              },
+              {
+                "text": "Auto-follow",
+                "link": "/tuning-your-cluster/replication-plugin/auto-follow"
+              },
+              {
+                "text": "Replication security",
+                "link": "/tuning-your-cluster/replication-plugin/permissions"
+              },
+              {
+                "text": "Replication settings",
+                "link": "/tuning-your-cluster/replication-plugin/settings"
+              },
+              {
+                "text": "API",
+                "link": "/tuning-your-cluster/replication-plugin/api"
+              }
+            ]
+          },
+          {
+            "text": "Availability and recovery",
+            "link": "/tuning-your-cluster/availability-and-recovery/",
+            "items": [
+              {
+                "text": "Snapshots",
+                "link": "/tuning-your-cluster/availability-and-recovery/snapshots/",
+                "items": [
+                  {
+                    "text": "Take and restore snapshots",
+                    "link": "/tuning-your-cluster/availability-and-recovery/snapshots/snapshot-restore"
+                  },
+                  {
+                    "text": "Snapshot management",
+                    "link": "/tuning-your-cluster/availability-and-recovery/snapshots/snapshot-management"
+                  },
+                  {
+                    "text": "Snapshot management API",
+                    "link": "/tuning-your-cluster/availability-and-recovery/snapshots/sm-api"
+                  },
+                  {
+                    "text": "Searchable snapshots",
+                    "link": "/tuning-your-cluster/availability-and-recovery/snapshots/searchable_snapshot"
+                  }
+                ]
+              },
+              {
+                "text": "Remote-backed storage",
+                "link": "/tuning-your-cluster/availability-and-recovery/remote-store/",
+                "items": [
+                  {
+                    "text": "Remote cluster state",
+                    "link": "/tuning-your-cluster/availability-and-recovery/remote-store/remote-cluster-state"
+                  },
+                  {
+                    "text": "Remote segment backpressure",
+                    "link": "/tuning-your-cluster/availability-and-recovery/remote-store/remote-segment-backpressure"
+                  },
+                  {
+                    "text": "Shallow snapshots",
+                    "link": "/tuning-your-cluster/availability-and-recovery/remote-store/snapshot-interoperability"
+                  },
+                  {
+                    "text": "Remote Store Stats API",
+                    "link": "/tuning-your-cluster/availability-and-recovery/remote-store/remote-store-stats-api"
+                  }
+                ]
+              },
+              {
+                "text": "Search backpressure",
+                "link": "/tuning-your-cluster/availability-and-recovery/search-backpressure"
+              },
+              {
+                "text": "Shard indexing backpressure",
+                "link": "/tuning-your-cluster/availability-and-recovery/shard-indexing-backpressure",
+                "items": [
+                  {
+                    "text": "Stats API",
+                    "link": "/tuning-your-cluster/availability-and-recovery/stats-api"
+                  },
+                  {
+                    "text": "Settings",
+                    "link": "/tuning-your-cluster/availability-and-recovery/shard-indexing-settings"
+                  }
+                ]
+              },
+              {
+                "text": "Segment replication",
+                "link": "/tuning-your-cluster/availability-and-recovery/segment-replication/",
+                "items": [
+                  {
+                    "text": "Segment replication backpressure",
+                    "link": "/tuning-your-cluster/availability-and-recovery/segment-replication/backpressure"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Tuning for indexing speed",
+            "link": "/tuning-your-cluster/performance"
+          }
+        ]
+      },
+      {
+        "text": "Security in OpenSearch",
+        "collection": "security",
+        "items": [
+          {
+            "text": "Configuration",
+            "link": "/security/configuration/",
+            "items": [
+              {
+                "text": "Setting up a demo configuration",
+                "link": "/security/configuration/demo-configuration"
+              },
+              {
+                "text": "System indexes",
+                "link": "/security/configuration/system-indices"
+              },
+              {
+                "text": "Configuring the Security backend",
+                "link": "/security/configuration/configuration"
+              },
+              {
+                "text": "Modifying the YAML files",
+                "link": "/security/configuration/yaml"
+              },
+              {
+                "text": "Configuring TLS certificates",
+                "link": "/security/configuration/tls"
+              },
+              {
+                "text": "Generating self-signed certificates",
+                "link": "/security/configuration/generate-certificates"
+              },
+              {
+                "text": "Applying changes to configuration files",
+                "link": "/security/configuration/security-admin"
+              },
+              {
+                "text": "API rate limiting",
+                "link": "/security/configuration/api-rate-limiting"
+              },
+              {
+                "text": "Configuring sign-in options",
+                "link": "/security/configuration/multi-auth"
+              },
+              {
+                "text": "Disabling security",
+                "link": "/security/configuration/disable"
+              },
+              {
+                "text": "OpenSearch keystore",
+                "link": "/security/configuration/opensearch-keystore"
+              }
+            ]
+          },
+          {
+            "text": "Authentication backends",
+            "link": "/security/authentication-backends/authc-index",
+            "items": [
+              {
+                "text": "HTTP basic authentication",
+                "link": "/security/authentication-backends/basic-authc"
+              },
+              {
+                "text": "JSON Web Token",
+                "link": "/security/authentication-backends/jwt"
+              },
+              {
+                "text": "OpenID Connect",
+                "link": "/security/authentication-backends/openid-connect"
+              },
+              {
+                "text": "SAML",
+                "link": "/security/authentication-backends/saml"
+              },
+              {
+                "text": "Active Directory and LDAP",
+                "link": "/security/authentication-backends/ldap"
+              },
+              {
+                "text": "Proxy-based authentication",
+                "link": "/security/authentication-backends/proxy"
+              },
+              {
+                "text": "Client certificate authentication",
+                "link": "/security/authentication-backends/client-auth"
+              }
+            ]
+          },
+          {
+            "text": "Access control",
+            "link": "/security/access-control/",
+            "items": [
+              {
+                "text": "REST layer authorization",
+                "link": "/security/access-control/rest-layer-authz"
+              },
+              {
+                "text": "Document-level security",
+                "link": "/security/access-control/document-level-security"
+              },
+              {
+                "text": "Users and roles",
+                "link": "/security/access-control/users-roles"
+              },
+              {
+                "text": "Field-level security",
+                "link": "/security/access-control/field-level-security"
+              },
+              {
+                "text": "Field masking",
+                "link": "/security/access-control/field-masking"
+              },
+              {
+                "text": "User impersonation",
+                "link": "/security/access-control/impersonation"
+              },
+              {
+                "text": "Cross-cluster search",
+                "link": "/security/access-control/cross-cluster-search"
+              },
+              {
+                "text": "Permissions",
+                "link": "/security/access-control/permissions"
+              },
+              {
+                "text": "Default action groups",
+                "link": "/security/access-control/default-action-groups"
+              },
+              {
+                "text": "API",
+                "link": "/security/access-control/api"
+              },
+              {
+                "text": "Authorization tokens",
+                "link": "/security/access-control/authentication-tokens"
+              },
+              {
+                "text": "Anonymous authentication",
+                "link": "/security/access-control/anonymous-authentication"
+              }
+            ]
+          },
+          {
+            "text": "Audit logs",
+            "link": "/security/audit-logs/",
+            "items": [
+              {
+                "text": "Audit log field reference",
+                "link": "/security/audit-logs/field-reference"
+              },
+              {
+                "text": "Audit log storage types",
+                "link": "/security/audit-logs/storage-types"
+              }
+            ]
+          },
+          {
+            "text": "OpenSearch Dashboards multi-tenancy",
+            "link": "/security/multi-tenancy/tenant-index",
+            "items": [
+              {
+                "text": "Multi-tenancy configuration",
+                "link": "/security/multi-tenancy/multi-tenancy-config"
+              },
+              {
+                "text": "Dynamic configuration in OpenSearch Dashboards",
+                "link": "/security/multi-tenancy/dynamic-config"
+              },
+              {
+                "text": "Multi-tenancy aggregate view for saved objects",
+                "link": "/security/multi-tenancy/mt-agg-view"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Security analytics",
+        "collection": "security-analytics",
+        "items": [
+          {
+            "text": "OpenSearch Security for Security Analytics",
+            "link": "/security-analytics/security"
+          },
+          {
+            "text": "Setting up Security Analytics",
+            "link": "/security-analytics/sec-analytics-config/",
+            "items": [
+              {
+                "text": "Creating detectors",
+                "link": "/security-analytics/sec-analytics-config/detectors-config"
+              },
+              {
+                "text": "Supported log types",
+                "link": "/security-analytics/sec-analytics-config/log-types"
+              },
+              {
+                "text": "Creating correlation rules",
+                "link": "/security-analytics/sec-analytics-config/correlation-config"
+              },
+              {
+                "text": "Creating custom log types",
+                "link": "/security-analytics/sec-analytics-config/custom-log-type"
+              }
+            ]
+          },
+          {
+            "text": "Using Security Analytics",
+            "link": "/security-analytics/usage/",
+            "items": [
+              {
+                "text": "The Overview page",
+                "link": "/security-analytics/usage/overview"
+              },
+              {
+                "text": "Working with detectors",
+                "link": "/security-analytics/usage/detectors"
+              },
+              {
+                "text": "Working with findings",
+                "link": "/security-analytics/usage/findings"
+              },
+              {
+                "text": "Working with detection rules",
+                "link": "/security-analytics/usage/rules"
+              },
+              {
+                "text": "Working with the correlation graph",
+                "link": "/security-analytics/usage/correlation-graph"
+              },
+              {
+                "text": "Working with alerts",
+                "link": "/security-analytics/usage/alerts"
+              }
+            ]
+          },
+          {
+            "text": "API tools",
+            "link": "/security-analytics/api-tools/",
+            "items": [
+              {
+                "text": "Detector APIs",
+                "link": "/security-analytics/api-tools/detector-api"
+              },
+              {
+                "text": "Rule APIs",
+                "link": "/security-analytics/api-tools/rule-api"
+              },
+              {
+                "text": "Mappings APIs",
+                "link": "/security-analytics/api-tools/mappings-api"
+              },
+              {
+                "text": "Alerts and findings APIs",
+                "link": "/security-analytics/api-tools/alert-finding-api"
+              },
+              {
+                "text": "Correlation engine APIs",
+                "link": "/security-analytics/api-tools/correlation-eng"
+              },
+              {
+                "text": "Log type APIs",
+                "link": "/security-analytics/api-tools/log-type-api"
+              }
+            ]
+          },
+          {
+            "text": "Security Analytics settings",
+            "link": "/security-analytics/settings"
+          }
+        ]
+      },
+      {
+        "text": "Mappings and field types",
+        "collection": "field-types",
+        "items": [
+          {
+            "text": "Supported field types",
+            "link": "/field-types/supported-field-types/",
+            "items": [
+              {
+                "text": "Alias",
+                "link": "/field-types/supported-field-types/alias"
+              },
+              {
+                "text": "Binary",
+                "link": "/field-types/supported-field-types/binary"
+              },
+              {
+                "text": "Numeric field types",
+                "link": "/field-types/supported-field-types/numeric",
+                "items": [
+                  {
+                    "text": "Unsigned long",
+                    "link": "/field-types/supported-field-types/unsigned-long"
+                  }
+                ]
+              },
+              {
+                "text": "Boolean",
+                "link": "/field-types/supported-field-types/boolean"
+              },
+              {
+                "text": "Date field types",
+                "link": "/field-types/supported-field-types/dates",
+                "items": [
+                  {
+                    "text": "Date",
+                    "link": "/field-types/supported-field-types/date"
+                  },
+                  {
+                    "text": "Date nanoseconds",
+                    "link": "/field-types/supported-field-types/date-nanos"
+                  }
+                ]
+              },
+              {
+                "text": "IP address",
+                "link": "/field-types/supported-field-types/ip"
+              },
+              {
+                "text": "Range field types",
+                "link": "/field-types/supported-field-types/range"
+              },
+              {
+                "text": "Object field types",
+                "link": "/field-types/supported-field-types/object-fields",
+                "items": [
+                  {
+                    "text": "Object",
+                    "link": "/field-types/supported-field-types/object"
+                  },
+                  {
+                    "text": "Nested",
+                    "link": "/field-types/supported-field-types/nested"
+                  },
+                  {
+                    "text": "Flat object",
+                    "link": "/field-types/supported-field-types/flat-object"
+                  },
+                  {
+                    "text": "Join",
+                    "link": "/field-types/supported-field-types/join"
+                  }
+                ]
+              },
+              {
+                "text": "String field types",
+                "link": "/field-types/supported-field-types/string",
+                "items": [
+                  {
+                    "text": "Keyword",
+                    "link": "/field-types/supported-field-types/keyword"
+                  },
+                  {
+                    "text": "Text",
+                    "link": "/field-types/supported-field-types/text"
+                  },
+                  {
+                    "text": "Match-only text",
+                    "link": "/field-types/supported-field-types/match-only-text"
+                  },
+                  {
+                    "text": "Token count",
+                    "link": "/field-types/supported-field-types/token-count"
+                  }
+                ]
+              },
+              {
+                "text": "Autocomplete field types",
+                "link": "/field-types/supported-field-types/autocomplete",
+                "items": [
+                  {
+                    "text": "Completion",
+                    "link": "/field-types/supported-field-types/completion"
+                  },
+                  {
+                    "text": "Search as you type",
+                    "link": "/field-types/supported-field-types/search-as-you-type"
+                  }
+                ]
+              },
+              {
+                "text": "Geographic field types",
+                "link": "/field-types/supported-field-types/geographic",
+                "items": [
+                  {
+                    "text": "Geopoint",
+                    "link": "/field-types/supported-field-types/geo-point"
+                  },
+                  {
+                    "text": "Geoshape",
+                    "link": "/field-types/supported-field-types/geo-shape"
+                  }
+                ]
+              },
+              {
+                "text": "Cartesian field types",
+                "link": "/field-types/supported-field-types/xy",
+                "items": [
+                  {
+                    "text": "xy point",
+                    "link": "/field-types/supported-field-types/xy-point"
+                  },
+                  {
+                    "text": "xy shape",
+                    "link": "/field-types/supported-field-types/xy-shape"
+                  }
+                ]
+              },
+              {
+                "text": "k-NN vector",
+                "link": "/field-types/supported-field-types/knn-vector"
+              },
+              {
+                "text": "Rank field types",
+                "link": "/field-types/supported-field-types/rank"
+              },
+              {
+                "text": "Percolator",
+                "link": "/field-types/supported-field-types/percolator"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Text analysis",
+        "collection": "analyzers",
+        "items": [
+          {
+            "text": "Language analyzers",
+            "link": "/analyzers/language-analyzers"
+          },
+          {
+            "text": "Index analyzers",
+            "link": "/analyzers/index-analyzers"
+          },
+          {
+            "text": "Search analyzers",
+            "link": "/analyzers/search-analyzers"
+          },
+          {
+            "text": "Tokenizers",
+            "link": "/analyzers/tokenizers/"
+          },
+          {
+            "text": "Token filters",
+            "link": "/analyzers/token-filters/",
+            "items": [
+              {
+                "text": "Delimited term frequency",
+                "link": "/analyzers/token-filters/delimited-term-frequency"
+              }
+            ]
+          },
+          {
+            "text": "Normalizers",
+            "link": "/analyzers/normalizers"
+          }
+        ]
+      },
+      {
+        "text": "Query DSL",
+        "collection": "query-dsl",
+        "items": [
+          {
+            "text": "Query and filter context",
+            "link": "/query-dsl/query-filter-context"
+          },
+          {
+            "text": "Term-level and full-text queries compared",
+            "link": "/query-dsl/term-vs-full-text"
+          },
+          {
+            "text": "Term-level queries",
+            "link": "/query-dsl/term/",
+            "items": [
+              {
+                "text": "Exists",
+                "link": "/query-dsl/term/exists"
+              },
+              {
+                "text": "Fuzzy",
+                "link": "/query-dsl/term/fuzzy"
+              },
+              {
+                "text": "IDs",
+                "link": "/query-dsl/term/ids"
+              },
+              {
+                "text": "Prefix",
+                "link": "/query-dsl/term/prefix"
+              },
+              {
+                "text": "Range",
+                "link": "/query-dsl/term/range"
+              },
+              {
+                "text": "Regexp",
+                "link": "/query-dsl/term/regexp"
+              },
+              {
+                "text": "Term",
+                "link": "/query-dsl/term/term"
+              },
+              {
+                "text": "Terms",
+                "link": "/query-dsl/term/terms"
+              },
+              {
+                "text": "Terms set",
+                "link": "/query-dsl/term/terms-set"
+              },
+              {
+                "text": "Wildcard",
+                "link": "/query-dsl/term/wildcard"
+              }
+            ]
+          },
+          {
+            "text": "Full-text queries",
+            "link": "/query-dsl/full-text/",
+            "items": [
+              {
+                "text": "Match",
+                "link": "/query-dsl/full-text/match"
+              },
+              {
+                "text": "Match Boolean prefix",
+                "link": "/query-dsl/full-text/match-bool-prefix"
+              },
+              {
+                "text": "Match phrase",
+                "link": "/query-dsl/full-text/match-phrase"
+              },
+              {
+                "text": "Match phrase prefix",
+                "link": "/query-dsl/full-text/match-phrase-prefix"
+              },
+              {
+                "text": "Multi-match",
+                "link": "/query-dsl/full-text/multi-match"
+              },
+              {
+                "text": "Query string",
+                "link": "/query-dsl/full-text/query-string"
+              },
+              {
+                "text": "Simple query string",
+                "link": "/query-dsl/full-text/simple-query-string"
+              },
+              {
+                "text": "Intervals",
+                "link": "/query-dsl/full-text/intervals"
+              }
+            ]
+          },
+          {
+            "text": "Compound queries",
+            "link": "/query-dsl/compound/",
+            "items": [
+              {
+                "text": "Boolean",
+                "link": "/query-dsl/compound/bool"
+              },
+              {
+                "text": "Boosting",
+                "link": "/query-dsl/compound/boosting"
+              },
+              {
+                "text": "Constant score",
+                "link": "/query-dsl/compound/constant-score"
+              },
+              {
+                "text": "Disjunction max",
+                "link": "/query-dsl/compound/disjunction-max"
+              },
+              {
+                "text": "Function score",
+                "link": "/query-dsl/compound/function-score"
+              },
+              {
+                "text": "Hybrid",
+                "link": "/query-dsl/compound/hybrid"
+              }
+            ]
+          },
+          {
+            "text": "Geographic and xy queries",
+            "link": "/query-dsl/geo-and-xy/",
+            "items": [
+              {
+                "text": "Geo-bounding box",
+                "link": "/query-dsl/geo-and-xy/geo-bounding-box"
+              },
+              {
+                "text": "xy",
+                "link": "/query-dsl/geo-and-xy/xy"
+              }
+            ]
+          },
+          {
+            "text": "Span queries",
+            "link": "/query-dsl/span-query"
+          },
+          {
+            "text": "Match all queries",
+            "link": "/query-dsl/match-all"
+          },
+          {
+            "text": "Specialized queries",
+            "link": "/query-dsl/specialized/",
+            "items": [
+              {
+                "text": "Neural",
+                "link": "/query-dsl/specialized/neural"
+              },
+              {
+                "text": "Neural sparse",
+                "link": "/query-dsl/specialized/neural-sparse"
+              },
+              {
+                "text": "Script score",
+                "link": "/query-dsl/specialized/script-score"
+              }
+            ]
+          },
+          {
+            "text": "Minimum should match",
+            "link": "/query-dsl/minimum-should-match"
+          }
+        ]
+      },
+      {
+        "text": "Aggregations",
+        "collection": "aggregations",
+        "items": [
+          {
+            "text": "Metric aggregations",
+            "link": "/aggregations/metric/",
+            "items": [
+              {
+                "text": "Average",
+                "link": "/aggregations/metric/average"
+              },
+              {
+                "text": "Cardinality",
+                "link": "/aggregations/metric/cardinality"
+              },
+              {
+                "text": "Extended stats",
+                "link": "/aggregations/metric/extended-stats"
+              },
+              {
+                "text": "Geobounds",
+                "link": "/aggregations/metric/geobounds"
+              },
+              {
+                "text": "Matrix stats",
+                "link": "/aggregations/metric/matrix-stats"
+              },
+              {
+                "text": "Maximum",
+                "link": "/aggregations/metric/maximum"
+              },
+              {
+                "text": "Minimum",
+                "link": "/aggregations/metric/minimum"
+              },
+              {
+                "text": "Percentile ranks",
+                "link": "/aggregations/metric/percentile-ranks"
+              },
+              {
+                "text": "Percentile",
+                "link": "/aggregations/metric/percentile"
+              },
+              {
+                "text": "Scripted metric",
+                "link": "/aggregations/metric/scripted-metric"
+              },
+              {
+                "text": "Stats",
+                "link": "/aggregations/metric/stats"
+              },
+              {
+                "text": "Sum",
+                "link": "/aggregations/metric/sum"
+              },
+              {
+                "text": "Top hits",
+                "link": "/aggregations/metric/top-hits"
+              },
+              {
+                "text": "Value count",
+                "link": "/aggregations/metric/value-count"
+              }
+            ]
+          },
+          {
+            "text": "Bucket aggregations",
+            "link": "/aggregations/bucket/",
+            "items": [
+              {
+                "text": "Adjacency matrix",
+                "link": "/aggregations/bucket/adjacency-matrix"
+              },
+              {
+                "text": "Date histogram",
+                "link": "/aggregations/bucket/date-histogram"
+              },
+              {
+                "text": "Date range",
+                "link": "/aggregations/bucket/date-range"
+              },
+              {
+                "text": "Diversified sampler",
+                "link": "/aggregations/bucket/diversified-sampler"
+              },
+              {
+                "text": "Filter",
+                "link": "/aggregations/bucket/filter"
+              },
+              {
+                "text": "Filters",
+                "link": "/aggregations/bucket/filters"
+              },
+              {
+                "text": "Geodistance",
+                "link": "/aggregations/bucket/geo-distance"
+              },
+              {
+                "text": "Geohash grid",
+                "link": "/aggregations/bucket/geohash-grid"
+              },
+              {
+                "text": "Geohex grid",
+                "link": "/aggregations/bucket/geohex-grid"
+              },
+              {
+                "text": "Geotile grid",
+                "link": "/aggregations/bucket/geotile-grid"
+              },
+              {
+                "text": "Global",
+                "link": "/aggregations/bucket/global"
+              },
+              {
+                "text": "Histogram",
+                "link": "/aggregations/bucket/histogram"
+              },
+              {
+                "text": "IP range",
+                "link": "/aggregations/bucket/ip-range"
+              },
+              {
+                "text": "Missing",
+                "link": "/aggregations/bucket/missing"
+              },
+              {
+                "text": "Multi-terms",
+                "link": "/aggregations/bucket/multi-terms"
+              },
+              {
+                "text": "Nested",
+                "link": "/aggregations/bucket/nested"
+              },
+              {
+                "text": "Range",
+                "link": "/aggregations/bucket/range"
+              },
+              {
+                "text": "Reverse nested",
+                "link": "/aggregations/bucket/reverse-nested"
+              },
+              {
+                "text": "Sampler",
+                "link": "/aggregations/bucket/sampler"
+              },
+              {
+                "text": "Significant terms",
+                "link": "/aggregations/bucket/significant-terms"
+              },
+              {
+                "text": "Significant text",
+                "link": "/aggregations/bucket/significant-text"
+              },
+              {
+                "text": "Terms",
+                "link": "/aggregations/bucket/terms"
+              }
+            ]
+          },
+          {
+            "text": "Pipeline aggregations",
+            "link": "/aggregations/pipeline-agg"
+          }
+        ]
+      },
+      {
+        "text": "Search",
+        "collection": "search-plugins",
+        "items": [
+          {
+            "text": "Searching data",
+            "link": "/search-plugins/searching-data/",
+            "items": [
+              {
+                "text": "Paginate results",
+                "link": "/search-plugins/searching-data/paginate"
+              },
+              {
+                "text": "Point in Time",
+                "link": "/search-plugins/searching-data/point-in-time",
+                "items": [
+                  {
+                    "text": "Point in Time API",
+                    "link": "/search-plugins/searching-data/point-in-time-api"
+                  }
+                ]
+              },
+              {
+                "text": "Sort results",
+                "link": "/search-plugins/searching-data/sort"
+              },
+              {
+                "text": "Highlight query matches",
+                "link": "/search-plugins/searching-data/highlight"
+              },
+              {
+                "text": "Autocomplete",
+                "link": "/search-plugins/searching-data/autocomplete"
+              },
+              {
+                "text": "Did-you-mean",
+                "link": "/search-plugins/searching-data/did-you-mean"
+              }
+            ]
+          },
+          {
+            "text": "Keyword search",
+            "link": "/search-plugins/keyword-search"
+          },
+          {
+            "text": "k-NN search",
+            "link": "/search-plugins/knn/",
+            "items": [
+              {
+                "text": "k-NN index",
+                "link": "/search-plugins/knn/knn-index"
+              },
+              {
+                "text": "Exact k-NN with scoring script",
+                "link": "/search-plugins/knn/knn-score-script"
+              },
+              {
+                "text": "Approximate k-NN search",
+                "link": "/search-plugins/knn/approximate-knn"
+              },
+              {
+                "text": "k-NN search with filters",
+                "link": "/search-plugins/knn/filter-search-knn"
+              },
+              {
+                "text": "k-NN search with nested fields",
+                "link": "/search-plugins/knn/nested-search-knn"
+              },
+              {
+                "text": "k-NN Painless extensions",
+                "link": "/search-plugins/knn/painless-functions"
+              },
+              {
+                "text": "API",
+                "link": "/search-plugins/knn/api"
+              },
+              {
+                "text": "JNI libraries",
+                "link": "/search-plugins/knn/jni-libraries"
+              },
+              {
+                "text": "Settings",
+                "link": "/search-plugins/knn/settings"
+              },
+              {
+                "text": "Performance tuning",
+                "link": "/search-plugins/knn/performance-tuning"
+              }
+            ]
+          },
+          {
+            "text": "Neural search",
+            "link": "/search-plugins/neural-search"
+          },
+          {
+            "text": "Neural search tutorial",
+            "link": "/search-plugins/neural-search-tutorial"
+          },
+          {
+            "text": "Semantic search",
+            "link": "/search-plugins/semantic-search"
+          },
+          {
+            "text": "Multimodal search",
+            "link": "/search-plugins/multimodal-search"
+          },
+          {
+            "text": "Neural sparse search",
+            "link": "/search-plugins/neural-sparse-search"
+          },
+          {
+            "text": "Hybrid search",
+            "link": "/search-plugins/hybrid-search"
+          },
+          {
+            "text": "Conversational search",
+            "link": "/search-plugins/conversational-search"
+          },
+          {
+            "text": "Search relevance",
+            "link": "/search-plugins/search-relevance/",
+            "items": [
+              {
+                "text": "Comparing search results",
+                "link": "/search-plugins/search-relevance/compare-search-results"
+              },
+              {
+                "text": "Reranking search results",
+                "link": "/search-plugins/search-relevance/reranking-search-results"
+              },
+              {
+                "text": "Querqy",
+                "link": "/search-plugins/querqy/"
+              }
+            ]
+          },
+          {
+            "text": "Search pipelines",
+            "link": "/search-plugins/search-pipelines/",
+            "items": [
+              {
+                "text": "Creating a search pipeline",
+                "link": "/search-plugins/search-pipelines/creating-search-pipeline"
+              },
+              {
+                "text": "Using a search pipeline",
+                "link": "/search-plugins/search-pipelines/using-search-pipeline"
+              },
+              {
+                "text": "Retrieving search pipelines",
+                "link": "/search-plugins/search-pipelines/retrieving-search-pipeline"
+              },
+              {
+                "text": "Search processors",
+                "link": "/search-plugins/search-pipelines/search-processors",
+                "items": [
+                  {
+                    "text": "Collapse",
+                    "link": "/search-plugins/search-pipelines/collapse-processor"
+                  },
+                  {
+                    "text": "Filter query",
+                    "link": "/search-plugins/search-pipelines/filter-query-processor"
+                  },
+                  {
+                    "text": "Neural query enricher",
+                    "link": "/search-plugins/search-pipelines/neural-query-enricher"
+                  },
+                  {
+                    "text": "Normalization",
+                    "link": "/search-plugins/search-pipelines/normalization-processor"
+                  },
+                  {
+                    "text": "Oversample",
+                    "link": "/search-plugins/search-pipelines/oversample-processor"
+                  },
+                  {
+                    "text": "Personalize search ranking",
+                    "link": "/search-plugins/search-pipelines/personalize-search-ranking"
+                  },
+                  {
+                    "text": "Retrieval-augmented generation",
+                    "link": "/search-plugins/search-pipelines/rag-processor"
+                  },
+                  {
+                    "text": "Rename field",
+                    "link": "/search-plugins/search-pipelines/rename-field-processor"
+                  },
+                  {
+                    "text": "Rerank",
+                    "link": "/search-plugins/search-pipelines/rerank-processor"
+                  },
+                  {
+                    "text": "Script",
+                    "link": "/search-plugins/search-pipelines/script-processor"
+                  },
+                  {
+                    "text": "Truncate hits",
+                    "link": "/search-plugins/search-pipelines/truncate-hits-processor"
+                  }
+                ]
+              },
+              {
+                "text": "Search pipeline metrics",
+                "link": "/search-plugins/search-pipelines/search-pipeline-metrics"
+              }
+            ]
+          },
+          {
+            "text": "Improving search performance",
+            "link": "/search-plugins/improving-search-performance",
+            "items": [
+              {
+                "text": "Asynchronous search",
+                "link": "/search-plugins/async/",
+                "items": [
+                  {
+                    "text": "Asynchronous search security",
+                    "link": "/search-plugins/async/security"
+                  },
+                  {
+                    "text": "Settings",
+                    "link": "/search-plugins/async/settings"
+                  }
+                ]
+              },
+              {
+                "text": "Concurrent segment search",
+                "link": "/search-plugins/concurrent-segment-search"
+              }
+            ]
+          },
+          {
+            "text": "SQL and PPL",
+            "link": "/search-plugins/sql/",
+            "items": [
+              {
+                "text": "SQL and PPL API",
+                "link": "/search-plugins/sql/sql-ppl-api"
+              },
+              {
+                "text": "Response formats",
+                "link": "/search-plugins/sql/response-formats"
+              },
+              {
+                "text": "SQL and PPL CLI",
+                "link": "/search-plugins/sql/cli"
+              },
+              {
+                "text": "SQL",
+                "link": "/search-plugins/sql/sql/",
+                "items": [
+                  {
+                    "text": "Basic Queries",
+                    "link": "/search-plugins/sql/sql/basic"
+                  },
+                  {
+                    "text": "Complex Queries",
+                    "link": "/search-plugins/sql/sql/complex"
+                  },
+                  {
+                    "text": "Functions",
+                    "link": "/search-plugins/sql/sql/functions"
+                  },
+                  {
+                    "text": "JSON Support",
+                    "link": "/search-plugins/sql/sql/partiql"
+                  },
+                  {
+                    "text": "Metadata Queries",
+                    "link": "/search-plugins/sql/sql/metadata"
+                  },
+                  {
+                    "text": "Aggregate Functions",
+                    "link": "/search-plugins/sql/sql/aggregations"
+                  },
+                  {
+                    "text": "Delete",
+                    "link": "/search-plugins/sql/sql/delete"
+                  },
+                  {
+                    "text": "JDBC Driver",
+                    "link": "/search-plugins/sql/sql/jdbc"
+                  },
+                  {
+                    "text": "ODBC Driver",
+                    "link": "/search-plugins/sql/sql/odbc"
+                  }
+                ]
+              },
+              {
+                "text": "PPL",
+                "link": "/search-plugins/sql/ppl/",
+                "items": [
+                  {
+                    "text": "Syntax",
+                    "link": "/search-plugins/sql/ppl/syntax"
+                  },
+                  {
+                    "text": "Commands",
+                    "link": "/search-plugins/sql/ppl/functions"
+                  }
+                ]
+              },
+              {
+                "text": "Identifiers",
+                "link": "/search-plugins/sql/identifiers"
+              },
+              {
+                "text": "Data Types",
+                "link": "/search-plugins/sql/datatypes"
+              },
+              {
+                "text": "Functions",
+                "link": "/search-plugins/sql/functions"
+              },
+              {
+                "text": "Full-Text Search",
+                "link": "/search-plugins/sql/full-text"
+              },
+              {
+                "text": "Settings",
+                "link": "/search-plugins/sql/settings"
+              },
+              {
+                "text": "Troubleshooting",
+                "link": "/search-plugins/sql/troubleshoot"
+              },
+              {
+                "text": "Monitoring",
+                "link": "/search-plugins/sql/monitoring"
+              },
+              {
+                "text": "Limitations",
+                "link": "/search-plugins/sql/limitation"
+              }
+            ]
+          },
+          {
+            "text": "Search Relevance Stats API",
+            "link": "/search-plugins/search-relevance/stats-api"
+          }
+        ]
+      },
+      {
+        "text": "Machine learning",
+        "collection": "ml-commons-plugin",
+        "items": [
+          {
+            "text": "ML Commons cluster settings",
+            "link": "/ml-commons-plugin/cluster-settings"
+          },
+          {
+            "text": "Integrating ML models",
+            "link": "/ml-commons-plugin/integrating-ml-models",
+            "items": [
+              {
+                "text": "Model access control",
+                "link": "/ml-commons-plugin/model-access-control"
+              },
+              {
+                "text": "Using ML models within OpenSearch",
+                "link": "/ml-commons-plugin/using-ml-models",
+                "items": [
+                  {
+                    "text": "Custom models",
+                    "link": "/ml-commons-plugin/custom-local-models"
+                  },
+                  {
+                    "text": "Pretrained models",
+                    "link": "/ml-commons-plugin/pretrained-models"
+                  },
+                  {
+                    "text": "GPU acceleration",
+                    "link": "/ml-commons-plugin/gpu-acceleration"
+                  }
+                ]
+              },
+              {
+                "text": "Connecting to externally hosted models",
+                "link": "/ml-commons-plugin/remote-models/",
+                "items": [
+                  {
+                    "text": "Connectors",
+                    "link": "/ml-commons-plugin/remote-models/connectors"
+                  },
+                  {
+                    "text": "Connector blueprints",
+                    "link": "/ml-commons-plugin/remote-models/blueprints"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Agents and tools",
+            "link": "/ml-commons-plugin/agents-tools/",
+            "items": [
+              {
+                "text": "Tools",
+                "link": "/ml-commons-plugin/agents-tools/tools/",
+                "items": [
+                  {
+                    "text": "Agent tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/agent-tool"
+                  },
+                  {
+                    "text": "CAT Index tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/cat-index-tool"
+                  },
+                  {
+                    "text": "Index Mapping tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/index-mapping-tool"
+                  },
+                  {
+                    "text": "ML Model tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/ml-model-tool"
+                  },
+                  {
+                    "text": "Neural Sparse Search tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/neural-sparse-tool"
+                  },
+                  {
+                    "text": "PPL tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/ppl-tool"
+                  },
+                  {
+                    "text": "RAG tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/rag-tool"
+                  },
+                  {
+                    "text": "Search Alerts tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/search-alerts-tool"
+                  },
+                  {
+                    "text": "Search Anomaly Detectors tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/search-anomaly-detectors"
+                  },
+                  {
+                    "text": "Search Anomaly Results tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/search-anomaly-results"
+                  },
+                  {
+                    "text": "Search Index tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/search-index-tool"
+                  },
+                  {
+                    "text": "Search Monitors tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/search-monitors-tool"
+                  },
+                  {
+                    "text": "Vector DB tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/vector-db-tool"
+                  },
+                  {
+                    "text": "Visualization tool",
+                    "link": "/ml-commons-plugin/agents-tools/tools/visualization-tool"
+                  }
+                ]
+              },
+              {
+                "text": "Agents and tools tutorial",
+                "link": "/ml-commons-plugin/agents-tools/agents-tools-tutorial"
+              }
+            ]
+          },
+          {
+            "text": "OpenSearch Assistant Toolkit",
+            "link": "/ml-commons-plugin/opensearch-assistant"
+          },
+          {
+            "text": "Managing ML models in OpenSearch Dashboards",
+            "link": "/ml-commons-plugin/ml-dashboard"
+          },
+          {
+            "text": "Supported algorithms",
+            "link": "/ml-commons-plugin/algorithms"
+          },
+          {
+            "text": "ML Commons APIs",
+            "link": "/ml-commons-plugin/api/",
+            "items": [
+              {
+                "text": "Model APIs",
+                "link": "/ml-commons-plugin/api/model-apis/",
+                "items": [
+                  {
+                    "text": "Register model",
+                    "link": "/ml-commons-plugin/api/model-apis/register-model"
+                  },
+                  {
+                    "text": "Deploy model",
+                    "link": "/ml-commons-plugin/api/model-apis/deploy-model"
+                  },
+                  {
+                    "text": "Get model",
+                    "link": "/ml-commons-plugin/api/model-apis/get-model"
+                  },
+                  {
+                    "text": "Search model",
+                    "link": "/ml-commons-plugin/api/model-apis/search-model"
+                  },
+                  {
+                    "text": "Update model",
+                    "link": "/ml-commons-plugin/api/model-apis/update-model"
+                  },
+                  {
+                    "text": "Undeploy model",
+                    "link": "/ml-commons-plugin/api/model-apis/undeploy-model"
+                  },
+                  {
+                    "text": "Delete model",
+                    "link": "/ml-commons-plugin/api/model-apis/delete-model"
+                  }
+                ]
+              },
+              {
+                "text": "Model group APIs",
+                "link": "/ml-commons-plugin/api/model-group-apis/",
+                "items": [
+                  {
+                    "text": "Register model group",
+                    "link": "/ml-commons-plugin/api/model-group-apis/register-model-group"
+                  },
+                  {
+                    "text": "Update model group",
+                    "link": "/ml-commons-plugin/api/model-group-apis/update-model-group"
+                  },
+                  {
+                    "text": "Search model group",
+                    "link": "/ml-commons-plugin/api/model-group-apis/search-model-group"
+                  },
+                  {
+                    "text": "Delete model group",
+                    "link": "/ml-commons-plugin/api/model-group-apis/delete-model-group"
+                  }
+                ]
+              },
+              {
+                "text": "Connector APIs",
+                "link": "/ml-commons-plugin/api/connector-apis/",
+                "items": [
+                  {
+                    "text": "Create connector",
+                    "link": "/ml-commons-plugin/api/connector-apis/create-connector"
+                  },
+                  {
+                    "text": "Get connector",
+                    "link": "/ml-commons-plugin/api/connector-apis/get-connector"
+                  },
+                  {
+                    "text": "Search connector",
+                    "link": "/ml-commons-plugin/api/connector-apis/search-connector"
+                  },
+                  {
+                    "text": "Update connector",
+                    "link": "/ml-commons-plugin/api/connector-apis/update-connector"
+                  },
+                  {
+                    "text": "Delete connector",
+                    "link": "/ml-commons-plugin/api/connector-apis/delete-connector"
+                  }
+                ]
+              },
+              {
+                "text": "Agent APIs",
+                "link": "/ml-commons-plugin/api/agent-apis/",
+                "items": [
+                  {
+                    "text": "Register agent",
+                    "link": "/ml-commons-plugin/api/agent-apis/register-agent"
+                  },
+                  {
+                    "text": "Execute agent",
+                    "link": "/ml-commons-plugin/api/agent-apis/execute-agent"
+                  },
+                  {
+                    "text": "Get agent",
+                    "link": "/ml-commons-plugin/api/agent-apis/get-agent"
+                  },
+                  {
+                    "text": "Search agent",
+                    "link": "/ml-commons-plugin/api/agent-apis/search-agent"
+                  },
+                  {
+                    "text": "Delete agent",
+                    "link": "/ml-commons-plugin/api/agent-apis/delete-agent"
+                  }
+                ]
+              },
+              {
+                "text": "Memory APIs",
+                "link": "/ml-commons-plugin/api/memory-apis/",
+                "items": [
+                  {
+                    "text": "Create or update memory",
+                    "link": "/ml-commons-plugin/api/memory-apis/create-memory"
+                  },
+                  {
+                    "text": "Get memory",
+                    "link": "/ml-commons-plugin/api/memory-apis/get-memory"
+                  },
+                  {
+                    "text": "Search memory",
+                    "link": "/ml-commons-plugin/api/memory-apis/search-memory"
+                  },
+                  {
+                    "text": "Delete memory",
+                    "link": "/ml-commons-plugin/api/memory-apis/delete-memory"
+                  },
+                  {
+                    "text": "Create or update message",
+                    "link": "/ml-commons-plugin/api/memory-apis/create-message"
+                  },
+                  {
+                    "text": "Get message",
+                    "link": "/ml-commons-plugin/api/memory-apis/get-message"
+                  },
+                  {
+                    "text": "Search message",
+                    "link": "/ml-commons-plugin/api/memory-apis/search-message"
+                  },
+                  {
+                    "text": "Get message traces",
+                    "link": "/ml-commons-plugin/api/memory-apis/get-message-traces"
+                  }
+                ]
+              },
+              {
+                "text": "Controller APIs",
+                "link": "/ml-commons-plugin/api/controller-apis/",
+                "items": [
+                  {
+                    "text": "Create controller",
+                    "link": "/ml-commons-plugin/api/controller-apis/create-controller"
+                  },
+                  {
+                    "text": "Get controller",
+                    "link": "/ml-commons-plugin/api/controller-apis/get-controller"
+                  },
+                  {
+                    "text": "Delete controller",
+                    "link": "/ml-commons-plugin/api/controller-apis/delete-controller"
+                  }
+                ]
+              },
+              {
+                "text": "Execute algorithm",
+                "link": "/ml-commons-plugin/api/execute-algorithm"
+              },
+              {
+                "text": "Tasks APIs",
+                "link": "/ml-commons-plugin/api/tasks-apis/",
+                "items": [
+                  {
+                    "text": "Get task",
+                    "link": "/ml-commons-plugin/api/tasks-apis/get-task"
+                  },
+                  {
+                    "text": "Search task",
+                    "link": "/ml-commons-plugin/api/tasks-apis/search-task"
+                  },
+                  {
+                    "text": "Delete task",
+                    "link": "/ml-commons-plugin/api/tasks-apis/delete-task"
+                  }
+                ]
+              },
+              {
+                "text": "Train and Predict APIs",
+                "link": "/ml-commons-plugin/api/train-predict/",
+                "items": [
+                  {
+                    "text": "Train and predict",
+                    "link": "/ml-commons-plugin/api/train-predict/train-and-predict"
+                  },
+                  {
+                    "text": "Train",
+                    "link": "/ml-commons-plugin/api/train-predict/train"
+                  },
+                  {
+                    "text": "Predict",
+                    "link": "/ml-commons-plugin/api/train-predict/predict"
+                  }
+                ]
+              },
+              {
+                "text": "Profile",
+                "link": "/ml-commons-plugin/api/profile"
+              },
+              {
+                "text": "Stats",
+                "link": "/ml-commons-plugin/api/stats"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Automating configurations",
+        "collection": "automating-configurations",
+        "items": [
+          {
+            "text": "Workflow steps",
+            "link": "/automating-configurations/workflow-steps"
+          },
+          {
+            "text": "Workflow tutorial",
+            "link": "/automating-configurations/workflow-tutorial"
+          },
+          {
+            "text": "Workflow settings",
+            "link": "/automating-configurations/workflow-settings"
+          },
+          {
+            "text": "Workflow APIs",
+            "link": "/automating-configurations/api/",
+            "items": [
+              {
+                "text": "Create or update a workflow",
+                "link": "/automating-configurations/api/create-workflow"
+              },
+              {
+                "text": "Get a workflow",
+                "link": "/automating-configurations/api/get-workflow"
+              },
+              {
+                "text": "Provision a workflow",
+                "link": "/automating-configurations/api/provision-workflow"
+              },
+              {
+                "text": "Get a workflow status",
+                "link": "/automating-configurations/api/get-workflow-status"
+              },
+              {
+                "text": "Get workflow steps",
+                "link": "/automating-configurations/api/get-workflow-steps"
+              },
+              {
+                "text": "Search for a workflow",
+                "link": "/automating-configurations/api/search-workflow"
+              },
+              {
+                "text": "Search for a workflow state",
+                "link": "/automating-configurations/api/search-workflow-state"
+              },
+              {
+                "text": "Deprovision a workflow",
+                "link": "/automating-configurations/api/deprovision-workflow"
+              },
+              {
+                "text": "Delete a workflow",
+                "link": "/automating-configurations/api/delete-workflow"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Monitoring your cluster",
+        "collection": "monitoring-your-cluster",
+        "items": [
+          {
+            "text": "Job Scheduler",
+            "link": "/monitoring-your-cluster/job-scheduler/"
+          },
+          {
+            "text": "Performance Analyzer",
+            "link": "/monitoring-your-cluster/pa/",
+            "items": [
+              {
+                "text": "API",
+                "link": "/monitoring-your-cluster/pa/api"
+              },
+              {
+                "text": "Create PerfTop Dashboards",
+                "link": "/monitoring-your-cluster/pa/dashboards"
+              },
+              {
+                "text": "Metrics Reference",
+                "link": "/monitoring-your-cluster/pa/reference"
+              },
+              {
+                "text": "Root Cause Analysis",
+                "link": "/monitoring-your-cluster/pa/rca/",
+                "items": [
+                  {
+                    "text": "API",
+                    "link": "/monitoring-your-cluster/pa/rca/api"
+                  },
+                  {
+                    "text": "RCA Reference",
+                    "link": "/monitoring-your-cluster/pa/rca/reference"
+                  },
+                  {
+                    "text": "Hot shard identification",
+                    "link": "/monitoring-your-cluster/pa/rca/shard-hotspot"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Metrics framework",
+            "link": "/monitoring-your-cluster/metrics/getting-started"
+          }
+        ]
+      },
+      {
+        "text": "Observability",
+        "collection": "observing-your-data",
+        "items": [
+          {
+            "text": "Observability security",
+            "link": "/observing-your-data/observability-security"
+          },
+          {
+            "text": "Application analytics",
+            "link": "/observing-your-data/app-analytics"
+          },
+          {
+            "text": "Event analytics",
+            "link": "/observing-your-data/event-analytics"
+          },
+          {
+            "text": "Log ingestion",
+            "link": "/observing-your-data/log-ingestion"
+          },
+          {
+            "text": "Metrics analytics",
+            "link": "/observing-your-data/prometheusmetrics"
+          },
+          {
+            "text": "Query insights",
+            "link": "/observing-your-data/query-insights/",
+            "items": [
+              {
+                "text": "Top N queries",
+                "link": "/observing-your-data/query-insights/top-n-queries"
+              }
+            ]
+          },
+          {
+            "text": "Trace Analytics",
+            "link": "/observing-your-data/trace/",
+            "items": [
+              {
+                "text": "Getting Started",
+                "link": "/observing-your-data/trace/getting-started"
+              },
+              {
+                "text": "OpenSearch Dashboards plugin",
+                "link": "/observing-your-data/trace/ta-dashboards"
+              },
+              {
+                "text": "Analyzing Jaeger trace data",
+                "link": "/observing-your-data/trace/trace-analytics-jaeger"
+              },
+              {
+                "text": "Distrbuted tracing",
+                "link": "/observing-your-data/trace/distributed-tracing"
+              }
+            ]
+          },
+          {
+            "text": "Notebooks",
+            "link": "/observing-your-data/notebooks"
+          },
+          {
+            "text": "Operational panels",
+            "link": "/observing-your-data/operational-panels"
+          },
+          {
+            "text": "Alerting",
+            "link": "/observing-your-data/alerting/",
+            "items": [
+              {
+                "text": "Monitors",
+                "link": "/observing-your-data/alerting/monitors",
+                "items": [
+                  {
+                    "text": "Per query and per bucket monitors",
+                    "link": "/observing-your-data/alerting/per-query-bucket-monitors"
+                  },
+                  {
+                    "text": "Per cluster metrics monitors",
+                    "link": "/observing-your-data/alerting/per-cluster-metrics-monitors"
+                  },
+                  {
+                    "text": "Per document monitors",
+                    "link": "/observing-your-data/alerting/per-document-monitors"
+                  },
+                  {
+                    "text": "Composite monitors",
+                    "link": "/observing-your-data/alerting/composite-monitors"
+                  },
+                  {
+                    "text": "Triggers",
+                    "link": "/observing-your-data/alerting/triggers"
+                  },
+                  {
+                    "text": "Actions",
+                    "link": "/observing-your-data/alerting/actions"
+                  }
+                ]
+              },
+              {
+                "text": "Management",
+                "link": "/observing-your-data/alerting/settings"
+              },
+              {
+                "text": "Alerting security",
+                "link": "/observing-your-data/alerting/security"
+              },
+              {
+                "text": "API",
+                "link": "/observing-your-data/alerting/api"
+              },
+              {
+                "text": "Cron",
+                "link": "/observing-your-data/alerting/cron"
+              },
+              {
+                "text": "Alerting dashboards and visualizations",
+                "link": "/observing-your-data/alerting/dashboards-alerting"
+              }
+            ]
+          },
+          {
+            "text": "Anomaly detection",
+            "link": "/observing-your-data/ad/",
+            "items": [
+              {
+                "text": "Anomaly detection API",
+                "link": "/observing-your-data/ad/api"
+              },
+              {
+                "text": "Settings",
+                "link": "/observing-your-data/ad/settings"
+              },
+              {
+                "text": "Anomaly result mapping",
+                "link": "/observing-your-data/ad/result-mapping"
+              },
+              {
+                "text": "Anomaly detection security",
+                "link": "/observing-your-data/ad/security"
+              },
+              {
+                "text": "Anomaly detection visualizations and dashboards",
+                "link": "/observing-your-data/ad/dashboards-anomaly-detection"
+              }
+            ]
+          },
+          {
+            "text": "Notifications",
+            "link": "/observing-your-data/notifications/",
+            "items": [
+              {
+                "text": "API",
+                "link": "/observing-your-data/notifications/api"
+              }
+            ]
+          },
+          {
+            "text": "Simple Schema for Observability",
+            "link": "/observing-your-data/ss4o"
+          },
+          {
+            "text": "Cross-cluster search",
+            "link": "/observing-your-data/cross-cluster-replication"
+          }
+        ]
+      },
+      {
+        "text": "Reporting",
+        "collection": "reporting",
+        "items": [
+          {
+            "text": "Reporting using OpenSearch Dashboards",
+            "link": "/reporting/report-dashboard-index"
+          },
+          {
+            "text": "Reporting using the CLI",
+            "link": "/reporting/rep-cli-index",
+            "items": [
+              {
+                "text": "Download and install the Reporting CLI tool",
+                "link": "/reporting/rep-cli-install"
+              },
+              {
+                "text": "Create and request visualization reports",
+                "link": "/reporting/rep-cli-create"
+              },
+              {
+                "text": "Schedule reports with the cron utility",
+                "link": "/reporting/rep-cli-cron"
+              },
+              {
+                "text": "Schedule reports with AWS Lambda",
+                "link": "/reporting/rep-cli-lambda"
+              },
+              {
+                "text": "Reporting CLI options",
+                "link": "/reporting/rep-cli-options"
+              },
+              {
+                "text": "Use environment variables with the Reporting CLI",
+                "link": "/reporting/rep-cli-env-var"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Tools",
+        "collection": "tools",
+        "items": [
+          {
+            "text": "OpenSearch CLI",
+            "link": "/tools/cli"
+          },
+          {
+            "text": "OpenSearch Kubernetes Operator",
+            "link": "/tools/k8s-operator"
+          },
+          {
+            "text": "Logstash",
+            "link": "/tools/logstash/",
+            "items": [
+              {
+                "text": "Logstash execution model",
+                "link": "/tools/logstash/execution-model"
+              },
+              {
+                "text": "Common filter plugins",
+                "link": "/tools/logstash/common-filters"
+              },
+              {
+                "text": "Read from OpenSearch",
+                "link": "/tools/logstash/read-from-opensearch"
+              },
+              {
+                "text": "Ship events to OpenSearch",
+                "link": "/tools/logstash/ship-to-opensearch"
+              },
+              {
+                "text": "Advanced configurations",
+                "link": "/tools/logstash/advanced-config"
+              }
+            ]
+          },
+          {
+            "text": "Terraform",
+            "link": "/tools/terraform"
+          },
+          {
+            "text": "Grafana",
+            "link": "/tools/grafana"
+          }
+        ]
+      },
+      {
+        "text": "API reference",
+        "collection": "api-reference",
+        "items": [
+          {
+            "text": "Analyze API",
+            "link": "/api-reference/analyze-apis",
+            "items": [
+              {
+                "text": "Analysis API Terminology",
+                "link": "/api-reference/analyze-apis/terminology"
+              }
+            ]
+          },
+          {
+            "text": "CAT API",
+            "link": "/api-reference/cat/",
+            "items": [
+              {
+                "text": "CAT aliases",
+                "link": "/api-reference/cat/cat-aliases"
+              },
+              {
+                "text": "CAT allocation",
+                "link": "/api-reference/cat/cat-allocation"
+              },
+              {
+                "text": "CAT count",
+                "link": "/api-reference/cat/cat-count"
+              },
+              {
+                "text": "CAT field data",
+                "link": "/api-reference/cat/cat-field-data"
+              },
+              {
+                "text": "CAT health",
+                "link": "/api-reference/cat/cat-health"
+              },
+              {
+                "text": "CAT indices operation",
+                "link": "/api-reference/cat/cat-indices"
+              },
+              {
+                "text": "CAT cluster manager",
+                "link": "/api-reference/cat/cat-cluster_manager"
+              },
+              {
+                "text": "CAT nodeattrs",
+                "link": "/api-reference/cat/cat-nodeattrs"
+              },
+              {
+                "text": "CAT nodes",
+                "link": "/api-reference/cat/cat-nodes"
+              },
+              {
+                "text": "CAT pending tasks",
+                "link": "/api-reference/cat/cat-pending-tasks"
+              },
+              {
+                "text": "CAT plugins",
+                "link": "/api-reference/cat/cat-plugins"
+              },
+              {
+                "text": "CAT recovery",
+                "link": "/api-reference/cat/cat-recovery"
+              },
+              {
+                "text": "CAT repositories",
+                "link": "/api-reference/cat/cat-repositories"
+              },
+              {
+                "text": "CAT segment replication",
+                "link": "/api-reference/cat/cat-segment-replication"
+              },
+              {
+                "text": "CAT segments",
+                "link": "/api-reference/cat/cat-segments"
+              },
+              {
+                "text": "CAT shards",
+                "link": "/api-reference/cat/cat-shards"
+              },
+              {
+                "text": "CAT snapshots",
+                "link": "/api-reference/cat/cat-snapshots"
+              },
+              {
+                "text": "CAT tasks",
+                "link": "/api-reference/cat/cat-tasks"
+              },
+              {
+                "text": "CAT templates",
+                "link": "/api-reference/cat/cat-templates"
+              },
+              {
+                "text": "CAT thread pool",
+                "link": "/api-reference/cat/cat-thread-pool"
+              }
+            ]
+          },
+          {
+            "text": "Cluster APIs",
+            "link": "/api-reference/cluster-api/",
+            "items": [
+              {
+                "text": "Cluster allocation explain",
+                "link": "/api-reference/cluster-api/cluster-allocation"
+              },
+              {
+                "text": "Cluster routing and awareness",
+                "link": "/api-reference/cluster-api/cluster-awareness"
+              },
+              {
+                "text": "Cluster decommission",
+                "link": "/api-reference/cluster-api/cluster-decommission"
+              },
+              {
+                "text": "Cluster health",
+                "link": "/api-reference/cluster-api/cluster-health"
+              },
+              {
+                "text": "Cluster settings",
+                "link": "/api-reference/cluster-api/cluster-settings"
+              },
+              {
+                "text": "Cluster stats",
+                "link": "/api-reference/cluster-api/cluster-stats"
+              }
+            ]
+          },
+          {
+            "text": "Count",
+            "link": "/api-reference/count"
+          },
+          {
+            "text": "Document APIs",
+            "link": "/api-reference/document-apis/",
+            "items": [
+              {
+                "text": "Index document",
+                "link": "/api-reference/document-apis/index-document"
+              },
+              {
+                "text": "Get document",
+                "link": "/api-reference/document-apis/get-documents"
+              },
+              {
+                "text": "Update document",
+                "link": "/api-reference/document-apis/update-document"
+              },
+              {
+                "text": "Delete document",
+                "link": "/api-reference/document-apis/delete-document"
+              },
+              {
+                "text": "Bulk",
+                "link": "/api-reference/document-apis/bulk"
+              },
+              {
+                "text": "Multi-get document",
+                "link": "/api-reference/document-apis/multi-get"
+              },
+              {
+                "text": "Delete by query",
+                "link": "/api-reference/document-apis/delete-by-query"
+              },
+              {
+                "text": "Update by query",
+                "link": "/api-reference/document-apis/update-by-query"
+              },
+              {
+                "text": "Reindex document",
+                "link": "/api-reference/document-apis/reindex"
+              }
+            ]
+          },
+          {
+            "text": "Explain",
+            "link": "/api-reference/explain"
+          },
+          {
+            "text": "Index APIs",
+            "link": "/api-reference/index-apis/",
+            "items": [
+              {
+                "text": "Alias",
+                "link": "/api-reference/index-apis/alias"
+              },
+              {
+                "text": "Clear cache",
+                "link": "/api-reference/index-apis/clear-index-cache"
+              },
+              {
+                "text": "Clone index",
+                "link": "/api-reference/index-apis/clone"
+              },
+              {
+                "text": "Close index",
+                "link": "/api-reference/index-apis/close-index"
+              },
+              {
+                "text": "Create index",
+                "link": "/api-reference/index-apis/create-index"
+              },
+              {
+                "text": "Create or update mappings",
+                "link": "/api-reference/index-apis/put-mapping"
+              },
+              {
+                "text": "Dangling indexes",
+                "link": "/api-reference/index-apis/dangling-index"
+              },
+              {
+                "text": "Delete index",
+                "link": "/api-reference/index-apis/delete-index"
+              },
+              {
+                "text": "Force merge",
+                "link": "/api-reference/index-apis/force-merge"
+              },
+              {
+                "text": "Get index",
+                "link": "/api-reference/index-apis/get-index"
+              },
+              {
+                "text": "Get settings",
+                "link": "/api-reference/index-apis/get-settings"
+              },
+              {
+                "text": "Index exists",
+                "link": "/api-reference/index-apis/exists"
+              },
+              {
+                "text": "Open index",
+                "link": "/api-reference/index-apis/open-index"
+              },
+              {
+                "text": "Shrink index",
+                "link": "/api-reference/index-apis/shrink-index"
+              },
+              {
+                "text": "Split index",
+                "link": "/api-reference/index-apis/split"
+              },
+              {
+                "text": "Stats",
+                "link": "/api-reference/index-apis/stats"
+              },
+              {
+                "text": "Update settings",
+                "link": "/api-reference/index-apis/update-settings"
+              }
+            ]
+          },
+          {
+            "text": "Ingest APIs",
+            "link": "/api-reference/ingest-apis/"
+          },
+          {
+            "text": "Multi-search",
+            "link": "/api-reference/multi-search"
+          },
+          {
+            "text": "Nodes APIs",
+            "link": "/api-reference/nodes-apis/",
+            "items": [
+              {
+                "text": "Nodes info",
+                "link": "/api-reference/nodes-apis/nodes-info"
+              },
+              {
+                "text": "Nodes stats",
+                "link": "/api-reference/nodes-apis/nodes-stats"
+              },
+              {
+                "text": "Nodes hot threads",
+                "link": "/api-reference/nodes-apis/nodes-hot-threads"
+              },
+              {
+                "text": "Nodes usage",
+                "link": "/api-reference/nodes-apis/nodes-usage"
+              },
+              {
+                "text": "Nodes reload secure settings",
+                "link": "/api-reference/nodes-apis/nodes-reload-secure"
+              }
+            ]
+          },
+          {
+            "text": "Profile",
+            "link": "/api-reference/profile"
+          },
+          {
+            "text": "Ranking evaluation",
+            "link": "/api-reference/rank-eval"
+          },
+          {
+            "text": "Remote cluster information",
+            "link": "/api-reference/remote-info"
+          },
+          {
+            "text": "Script APIs",
+            "link": "/api-reference/script-apis/",
+            "items": [
+              {
+                "text": "Create or Update Stored Script",
+                "link": "/api-reference/script-apis/create-stored-script"
+              },
+              {
+                "text": "Execute Painless stored script",
+                "link": "/api-reference/script-apis/exec-stored-script"
+              },
+              {
+                "text": "Get Stored Script",
+                "link": "/api-reference/script-apis/get-stored-script"
+              },
+              {
+                "text": "Delete Script",
+                "link": "/api-reference/script-apis/delete-script"
+              },
+              {
+                "text": "Get Stored Script Contexts",
+                "link": "/api-reference/script-apis/get-script-contexts"
+              },
+              {
+                "text": "Get Script Language",
+                "link": "/api-reference/script-apis/get-script-language"
+              },
+              {
+                "text": "Execute Painless script",
+                "link": "/api-reference/script-apis/exec-script"
+              }
+            ]
+          },
+          {
+            "text": "Scroll",
+            "link": "/api-reference/scroll"
+          },
+          {
+            "text": "Search",
+            "link": "/api-reference/search"
+          },
+          {
+            "text": "Search templates",
+            "link": "/api-reference/search-template"
+          },
+          {
+            "text": "Snapshot APIs",
+            "link": "/api-reference/snapshots/",
+            "items": [
+              {
+                "text": "Register Snapshot Repository",
+                "link": "/api-reference/snapshots/create-repository"
+              },
+              {
+                "text": "Get Snapshot Repository",
+                "link": "/api-reference/snapshots/get-snapshot-repository"
+              },
+              {
+                "text": "Delete Snapshot Repository",
+                "link": "/api-reference/snapshots/delete-snapshot-repository"
+              },
+              {
+                "text": "Verify Snaphot Repository",
+                "link": "/api-reference/snapshots/verify-snapshot-repository"
+              },
+              {
+                "text": "Create Snapshot",
+                "link": "/api-reference/snapshots/create-snapshot"
+              },
+              {
+                "text": "Get Snapshot",
+                "link": "/api-reference/snapshots/get-snapshot"
+              },
+              {
+                "text": "Delete Snapshot",
+                "link": "/api-reference/snapshots/delete-snapshot"
+              },
+              {
+                "text": "Get Snapshot Status",
+                "link": "/api-reference/snapshots/get-snapshot-status"
+              },
+              {
+                "text": "Restore Snapshot",
+                "link": "/api-reference/snapshots/restore-snapshot"
+              }
+            ]
+          },
+          {
+            "text": "Tasks",
+            "link": "/api-reference/tasks"
+          },
+          {
+            "text": "Supported units",
+            "link": "/api-reference/units"
+          },
+          {
+            "text": "Common REST Parameters",
+            "link": "/api-reference/common-parameters"
+          },
+          {
+            "text": "Popular APIs",
+            "link": "/api-reference/popular-api"
+          }
+        ]
+      },
+      {
+        "text": "Troubleshooting",
+        "collection": "troubleshoot",
+        "items": [
+          {
+            "text": "Troubleshoot securityadmin.sh",
+            "link": "/troubleshoot/security-admin"
+          },
+          {
+            "text": "Troubleshoot TLS",
+            "link": "/troubleshoot/tls"
+          },
+          {
+            "text": "Troubleshoot SAML",
+            "link": "/troubleshoot/saml"
+          },
+          {
+            "text": "Troubleshoot OpenID Connect",
+            "link": "/troubleshoot/openid-connect"
+          }
+        ]
+      },
+      {
+        "text": "Developer documentation",
+        "collection": "developer-documentation",
+        "items": [
+          {
+            "text": "Extensions",
+            "link": "/developer-documentation/extensions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "base": "/clients/",
+    "groups": [
+      {
+        "text": "Clients",
+        "collection": "clients",
+        "items": [
+          {
+            "text": "High-level Python client",
+            "link": "/clients/python-high-level"
+          },
+          {
+            "text": "Low-level Python client",
+            "link": "/clients/python-low-level"
+          },
+          {
+            "text": "Opensearch-py-ml",
+            "link": "/clients/opensearch-py-ml"
+          },
+          {
+            "text": "Java high-level REST client",
+            "link": "/clients/java-rest-high-level"
+          },
+          {
+            "text": "Java client",
+            "link": "/clients/java"
+          },
+          {
+            "text": "JavaScript client",
+            "link": "/clients/javascript/",
+            "items": [
+              {
+                "text": "Helper methods",
+                "link": "/clients/javascript/helpers"
+              }
+            ]
+          },
+          {
+            "text": "Go client",
+            "link": "/clients/go"
+          },
+          {
+            "text": "Ruby client",
+            "link": "/clients/ruby"
+          },
+          {
+            "text": "PHP client",
+            "link": "/clients/php"
+          },
+          {
+            "text": ".NET clients",
+            "link": "/clients/dot-net",
+            "items": [
+              {
+                "text": "Getting started with the high-level .NET client",
+                "link": "/clients/OSC-dot-net"
+              },
+              {
+                "text": "More advanced features of the high-level .NET client",
+                "link": "/clients/OSC-example"
+              },
+              {
+                "text": ".NET client considerations",
+                "link": "/clients/dot-net-conventions"
+              },
+              {
+                "text": "Low-level .NET client",
+                "link": "/clients/OpenSearch-dot-net"
+              }
+            ]
+          },
+          {
+            "text": "Rust client",
+            "link": "/clients/rust"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "base": "/benchmark/",
+    "groups": [
+      {
+        "text": "OpenSearch Benchmark",
+        "collection": "benchmark",
+        "items": [
+          {
+            "text": "Quickstart",
+            "link": "/benchmark/quickstart"
+          },
+          {
+            "text": "User guide",
+            "link": "/benchmark/user-guide/",
+            "items": [
+              {
+                "text": "Concepts",
+                "link": "/benchmark/user-guide/concepts"
+              },
+              {
+                "text": "Installing OpenSearch Benchmark",
+                "link": "/benchmark/user-guide/installing-benchmark"
+              },
+              {
+                "text": "Configuring OpenSearch Benchmark",
+                "link": "/benchmark/user-guide/configuring-benchmark"
+              },
+              {
+                "text": "Understanding workloads",
+                "link": "/benchmark/user-guide/understanding-workloads/",
+                "items": [
+                  {
+                    "text": "Anatomy of a workload",
+                    "link": "/benchmark/user-guide/understanding-workloads/anatomy-of-a-workload"
+                  },
+                  {
+                    "text": "Choosing a workload",
+                    "link": "/benchmark/user-guide/understanding-workloads/choosing-a-workload"
+                  }
+                ]
+              },
+              {
+                "text": "Running a workload",
+                "link": "/benchmark/user-guide/running-workloads"
+              },
+              {
+                "text": "Creating OpenSearch Benchmark workloads",
+                "link": "/benchmark/user-guide/creating-osb-workloads"
+              },
+              {
+                "text": "Sharing custom workloads",
+                "link": "/benchmark/user-guide/contributing-workloads"
+              },
+              {
+                "text": "Running distributed loads",
+                "link": "/benchmark/user-guide/distributed-load"
+              },
+              {
+                "text": "Enabling telemetry devices",
+                "link": "/benchmark/user-guide/telemetry"
+              }
+            ]
+          },
+          {
+            "text": "Tutorials",
+            "link": "/benchmark/tutorials/",
+            "items": [
+              {
+                "text": "AWS Signature Version 4 support",
+                "link": "/benchmark/tutorials/sigv4"
+              }
+            ]
+          },
+          {
+            "text": "OpenSearch Benchmark Reference",
+            "link": "/benchmark/reference/",
+            "items": [
+              {
+                "text": "Metrics reference",
+                "link": "/benchmark/reference/metrics/",
+                "items": [
+                  {
+                    "text": "Metric records",
+                    "link": "/benchmark/reference/metrics/metric-records"
+                  },
+                  {
+                    "text": "Metric keys",
+                    "link": "/benchmark/reference/metrics/metric-keys"
+                  }
+                ]
+              },
+              {
+                "text": "Telemetry devices",
+                "link": "/benchmark/reference/telemetry"
+              },
+              {
+                "text": "Command reference",
+                "link": "/benchmark/reference/commands/",
+                "items": [
+                  {
+                    "text": "Command flags",
+                    "link": "/benchmark/reference/commands/command-flags"
+                  },
+                  {
+                    "text": "compare",
+                    "link": "/benchmark/reference/commands/compare"
+                  },
+                  {
+                    "text": "download",
+                    "link": "/benchmark/reference/commands/download"
+                  },
+                  {
+                    "text": "execute-test",
+                    "link": "/benchmark/reference/commands/execute-test"
+                  },
+                  {
+                    "text": "info",
+                    "link": "/benchmark/reference/commands/info"
+                  },
+                  {
+                    "text": "list",
+                    "link": "/benchmark/reference/commands/list"
+                  }
+                ]
+              },
+              {
+                "text": "Workload reference",
+                "link": "/benchmark/reference/workloads/",
+                "items": [
+                  {
+                    "text": "indices",
+                    "link": "/benchmark/reference/workloads/indices"
+                  },
+                  {
+                    "text": "corpora",
+                    "link": "/benchmark/reference/workloads/corpora"
+                  },
+                  {
+                    "text": "operations",
+                    "link": "/benchmark/reference/workloads/operations"
+                  },
+                  {
+                    "text": "test_procedures",
+                    "link": "/benchmark/reference/workloads/test-procedures"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Summary report",
+            "link": "/benchmark/reference/summary-report"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "base": "/data-prepper/",
+    "groups": [
+      {
+        "text": "Data Prepper",
+        "collection": "data-prepper",
+        "items": [
+          {
+            "text": "Getting started",
+            "link": "/data-prepper/getting-started"
+          },
+          {
+            "text": "Pipelines",
+            "link": "/data-prepper/pipelines/pipelines",
+            "items": [
+              {
+                "text": "Pipeline options",
+                "link": "/data-prepper/pipelines/pipelines-configuration-options"
+              },
+              {
+                "text": "Expression syntax",
+                "link": "/data-prepper/pipelines/expression-syntax"
+              },
+              {
+                "text": "Dead-letter queues",
+                "link": "/data-prepper/pipelines/dlq"
+              },
+              {
+                "text": "Sources",
+                "link": "/data-prepper/pipelines/configuration/sources/sources",
+                "items": [
+                  {
+                    "text": "dynamodb",
+                    "link": "/data-prepper/pipelines/configuration/sources/dynamo-db"
+                  },
+                  {
+                    "text": "http_source",
+                    "link": "/data-prepper/pipelines/configuration/sources/http-source"
+                  },
+                  {
+                    "text": "kafka",
+                    "link": "/data-prepper/pipelines/configuration/sources/kafka"
+                  },
+                  {
+                    "text": "otel_metrics_source",
+                    "link": "/data-prepper/pipelines/configuration/sources/otel-metrics-source"
+                  },
+                  {
+                    "text": "otel_trace_source source",
+                    "link": "/data-prepper/pipelines/configuration/sources/otel-trace"
+                  },
+                  {
+                    "text": "s3 source",
+                    "link": "/data-prepper/pipelines/configuration/sources/s3"
+                  },
+                  {
+                    "text": "otel_logs_source",
+                    "link": "/data-prepper/pipelines/configuration/sources/otel-logs-source"
+                  },
+                  {
+                    "text": "opensearch",
+                    "link": "/data-prepper/pipelines/configuration/sources/opensearch"
+                  }
+                ]
+              },
+              {
+                "text": "Buffers",
+                "link": "/data-prepper/pipelines/configuration/buffers/buffers",
+                "items": [
+                  {
+                    "text": "Bounded blocking",
+                    "link": "/data-prepper/pipelines/configuration/buffers/bounded-blocking"
+                  },
+                  {
+                    "text": "kafka",
+                    "link": "/data-prepper/pipelines/configuration/buffers/kafka"
+                  }
+                ]
+              },
+              {
+                "text": "Processors",
+                "link": "/data-prepper/pipelines/configuration/processors/processors",
+                "items": [
+                  {
+                    "text": "add_entries",
+                    "link": "/data-prepper/pipelines/configuration/processors/add-entries"
+                  },
+                  {
+                    "text": "aggregate",
+                    "link": "/data-prepper/pipelines/configuration/processors/aggregate"
+                  },
+                  {
+                    "text": "anomaly_detector",
+                    "link": "/data-prepper/pipelines/configuration/processors/anomaly-detector"
+                  },
+                  {
+                    "text": "convert_entry_type",
+                    "link": "/data-prepper/pipelines/configuration/processors/convert_entry_type"
+                  },
+                  {
+                    "text": "copy_values",
+                    "link": "/data-prepper/pipelines/configuration/processors/copy-values"
+                  },
+                  {
+                    "text": "csv",
+                    "link": "/data-prepper/pipelines/configuration/processors/csv"
+                  },
+                  {
+                    "text": "date",
+                    "link": "/data-prepper/pipelines/configuration/processors/date"
+                  },
+                  {
+                    "text": "delete_entries",
+                    "link": "/data-prepper/pipelines/configuration/processors/delete-entries"
+                  },
+                  {
+                    "text": "dissect",
+                    "link": "/data-prepper/pipelines/configuration/processors/dissect"
+                  },
+                  {
+                    "text": "drop_events",
+                    "link": "/data-prepper/pipelines/configuration/processors/drop-events"
+                  },
+                  {
+                    "text": "Grok",
+                    "link": "/data-prepper/pipelines/configuration/processors/grok"
+                  },
+                  {
+                    "text": "key_value",
+                    "link": "/data-prepper/pipelines/configuration/processors/key-value"
+                  },
+                  {
+                    "text": "list_to_map",
+                    "link": "/data-prepper/pipelines/configuration/processors/list-to-map"
+                  },
+                  {
+                    "text": "lowercase_string",
+                    "link": "/data-prepper/pipelines/configuration/processors/lowercase-string"
+                  },
+                  {
+                    "text": "Mutate event",
+                    "link": "/data-prepper/pipelines/configuration/processors/mutate-event"
+                  },
+                  {
+                    "text": "Mutate string",
+                    "link": "/data-prepper/pipelines/configuration/processors/mutate-string"
+                  },
+                  {
+                    "text": "obfuscate",
+                    "link": "/data-prepper/pipelines/configuration/processors/obfuscate"
+                  },
+                  {
+                    "text": "otel_metrics",
+                    "link": "/data-prepper/pipelines/configuration/processors/otel-metrics"
+                  },
+                  {
+                    "text": "otel_trace_group",
+                    "link": "/data-prepper/pipelines/configuration/processors/otel-trace-group"
+                  },
+                  {
+                    "text": "otel_trace",
+                    "link": "/data-prepper/pipelines/configuration/processors/otel-trace-raw"
+                  },
+                  {
+                    "text": "parse_json",
+                    "link": "/data-prepper/pipelines/configuration/processors/parse-json"
+                  },
+                  {
+                    "text": "rename_keys",
+                    "link": "/data-prepper/pipelines/configuration/processors/rename-keys"
+                  },
+                  {
+                    "text": "routes",
+                    "link": "/data-prepper/pipelines/configuration/processors/routes"
+                  },
+                  {
+                    "text": "service_map",
+                    "link": "/data-prepper/pipelines/configuration/processors/service-map-stateful"
+                  },
+                  {
+                    "text": "split_string",
+                    "link": "/data-prepper/pipelines/configuration/processors/split-string"
+                  },
+                  {
+                    "text": "string_converter",
+                    "link": "/data-prepper/pipelines/configuration/processors/string-converter"
+                  },
+                  {
+                    "text": "substitute_string",
+                    "link": "/data-prepper/pipelines/configuration/processors/substitute-string"
+                  },
+                  {
+                    "text": "trace_peer_forwarder",
+                    "link": "/data-prepper/pipelines/configuration/processors/trace-peer-forwarder"
+                  },
+                  {
+                    "text": "translate",
+                    "link": "/data-prepper/pipelines/configuration/processors/translate"
+                  },
+                  {
+                    "text": "trim_string",
+                    "link": "/data-prepper/pipelines/configuration/processors/trim-string"
+                  },
+                  {
+                    "text": "uppercase_string",
+                    "link": "/data-prepper/pipelines/configuration/processors/uppercase-string"
+                  },
+                  {
+                    "text": "user_agent",
+                    "link": "/data-prepper/pipelines/configuration/processors/user-agent"
+                  }
+                ]
+              },
+              {
+                "text": "Sinks",
+                "link": "/data-prepper/pipelines/configuration/sinks/sinks",
+                "items": [
+                  {
+                    "text": "file",
+                    "link": "/data-prepper/pipelines/configuration/sinks/file"
+                  },
+                  {
+                    "text": "stdout sink",
+                    "link": "/data-prepper/pipelines/configuration/sinks/stdout"
+                  },
+                  {
+                    "text": "opensearch",
+                    "link": "/data-prepper/pipelines/configuration/sinks/opensearch"
+                  },
+                  {
+                    "text": "pipeline",
+                    "link": "/data-prepper/pipelines/configuration/sinks/pipeline"
+                  },
+                  {
+                    "text": "s3",
+                    "link": "/data-prepper/pipelines/configuration/sinks/s3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Common use cases",
+            "link": "/data-prepper/common-use-cases/common-use-cases",
+            "items": [
+              {
+                "text": "Anomaly detection",
+                "link": "/data-prepper/common-use-cases/anomaly-detection"
+              },
+              {
+                "text": "Codec processor combinations",
+                "link": "/data-prepper/common-use-cases/codec-processor-combinations"
+              },
+              {
+                "text": "Deriving metrics from traces",
+                "link": "/data-prepper/common-use-cases/metrics-traces"
+              },
+              {
+                "text": "Event aggregation",
+                "link": "/data-prepper/common-use-cases/event-aggregation"
+              },
+              {
+                "text": "Log analytics",
+                "link": "/data-prepper/common-use-cases/log-analytics"
+              },
+              {
+                "text": "Log enrichment",
+                "link": "/data-prepper/common-use-cases/log-enrichment"
+              },
+              {
+                "text": "S3 logs",
+                "link": "/data-prepper/common-use-cases/s3-logs"
+              },
+              {
+                "text": "Sampling",
+                "link": "/data-prepper/common-use-cases/sampling"
+              },
+              {
+                "text": "Text processing",
+                "link": "/data-prepper/common-use-cases/text-processing"
+              },
+              {
+                "text": "Trace analytics",
+                "link": "/data-prepper/common-use-cases/trace-analytics"
+              }
+            ]
+          },
+          {
+            "text": "Managing Data Prepper",
+            "link": "/data-prepper/managing-data-prepper/managing-data-prepper",
+            "items": [
+              {
+                "text": "Configuring Data Prepper",
+                "link": "/data-prepper/managing-data-prepper/configuring-data-prepper"
+              },
+              {
+                "text": "Peer forwarder",
+                "link": "/data-prepper/managing-data-prepper/peer-forwarder"
+              },
+              {
+                "text": "Core APIs",
+                "link": "/data-prepper/managing-data-prepper/core-apis"
+              },
+              {
+                "text": "Configuring Log4j",
+                "link": "/data-prepper/managing-data-prepper/configuring-log4j"
+              },
+              {
+                "text": "Monitoring",
+                "link": "/data-prepper/managing-data-prepper/monitoring"
+              },
+              {
+                "text": "Source coordination",
+                "link": "/data-prepper/managing-data-prepper/source-coordination"
+              }
+            ]
+          },
+          {
+            "text": "Migrating from Logstash",
+            "link": "/data-prepper/migrating-from-logstash-data-prepper"
+          },
+          {
+            "text": "Migrating from Open Distro",
+            "link": "/data-prepper/migrate-open-distro"
+          }
+        ]
+      }
+    ]
+  }
+]
