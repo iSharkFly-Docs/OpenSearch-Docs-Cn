@@ -15,6 +15,8 @@
    其他已统一的译法：插件（plugin）、仪表板（dashboard，产品名 OpenSearch Dashboards 不译）、可视化（visualization）、告警（alerting）、监控器（monitor）、角色（role）、权限（permission）、租户（tenant）。
    查询与聚合：全文查询（full-text query）、词项级查询（term-level query）、复合查询（compound query）、查询上下文 / 过滤上下文（query context / filter context）、权重提升（boost）、命中（hit）、桶（bucket）、管道聚合（Pipeline Aggregation）、同级聚合（Sibling Aggregation）、父聚合（Parent Aggregation）、最少应匹配数（minimum should match）。
    文本分析与字段：词元（token）、字符过滤器（character filter）、规范化器（normalizer）、字段类型（field type）、地理点（geopoint）、地理形状（geoshape）、扁平对象（flat object）、日期计算（date math）、纪元（epoch）、补全建议器（completion suggester）、载荷（payload）。doc values、shingle 不译。
+   搜索：搜索管道（search pipeline）、搜索请求处理器 / 搜索响应处理器 / 搜索阶段结果处理器、近似 k-NN / 精确 k-NN、向量（vector）、嵌入（embedding）、稠密 / 稀疏向量、语义搜索、关键词搜索、多模态搜索、对话式搜索、神经稀疏搜索、检索增强生成（RAG）、重排序（reranking）、归一化 / 组合方法、模型（model）、连接器（connector）、异步搜索、并发段搜索、高亮（highlighting）、高亮器（highlighter）、分页、时间点（PIT）、滚动（scroll）、自动补全（autocomplete）、建议器（suggester）、拼写纠错（did-you-mean）、预过滤 / 后过滤、切片（slice）、预热（warmup）、游标（cursor）、标识符（identifier）。retrieve 一类 API 操作译为「获取」，不译为「检索」（避免与 retrieval 混淆）。
+   搜索管道处理器页面的 frontmatter `title` 保留英文类型名（与英文侧边栏一致），一级标题写成「Collapse 处理器」。SQL 子句名（Select、Where 等）和 SQL 函数名作标题时保留英文。
    设置项与表格：Static / Dynamic → 静态 / 动态，Optional / Required → 可选 / 必需，Default → 默认值，Yes / No → 是 / 否。`<details>` 中的 `<summary>Response</summary>` 译为「响应」。
    以查询类型或字段类型命名的页面，标题保留英文类型名，例如「Term 查询」「Keyword 字段类型」。
 3. 产品名、库名、API 名称和代码标识符保持英文：OpenSearch、OpenSearch Dashboards、Data Prepper、OpenSearch Benchmark、Lucene、Query DSL、PPL、SQL、k-NN、`_search`、`match`、`bool` 等。API 的端点、参数名和字段名保持英文。
